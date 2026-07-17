@@ -1,0 +1,6026 @@
+[
+  {
+    "id": "SheepBall",
+    "slug": "lamball",
+    "name": "棉悠悠",
+    "index": 1,
+    "indexSuffix": "",
+    "rank": 3050,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "茸茸盾牌",
+    "icon": "pal_icons/SheepBall.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SheepBall.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "PinkCat",
+    "slug": "cattiva",
+    "name": "捣蛋猫",
+    "index": 2,
+    "indexSuffix": "",
+    "rank": 2760,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "跟猫借手手",
+    "icon": "pal_icons/PinkCat.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/PinkCat.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ChickenPal",
+    "slug": "chikipi",
+    "name": "皮皮鸡",
+    "index": 3,
+    "indexSuffix": "",
+    "rank": 3080,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "产蛋",
+    "icon": "pal_icons/ChickenPal.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ChickenPal.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Carbunclo",
+    "slug": "lifmunk",
+    "name": "翠叶鼠",
+    "index": 4,
+    "indexSuffix": "",
+    "rank": 3020,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "翠叶鼠出击",
+    "icon": "pal_icons/Carbunclo.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Carbunclo.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BluePlatypus",
+    "slug": "fuack",
+    "name": "冲浪鸭",
+    "index": 5,
+    "indexSuffix": "",
+    "rank": 2980,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "乘风破浪",
+    "icon": "pal_icons/BluePlatypus.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BluePlatypus.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BluePlatypus_Fire",
+    "slug": "fuack-ignis",
+    "name": "热浪鸭",
+    "index": 5,
+    "indexSuffix": "B",
+    "rank": 2300,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "热浪滚滚",
+    "icon": "pal_icons/BluePlatypus_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BluePlatypus_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CuteFox",
+    "slug": "vixy",
+    "name": "玉藻狐",
+    "index": 6,
+    "indexSuffix": "",
+    "rank": 3060,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "挖掘指导",
+    "icon": "pal_icons/CuteFox.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CuteFox.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlyingManta",
+    "slug": "celaray",
+    "name": "鲁米儿",
+    "index": 7,
+    "indexSuffix": "",
+    "rank": 2740,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "微风滑翔",
+    "icon": "pal_icons/FlyingManta.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlyingManta.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlyingManta_Thunder",
+    "slug": "celaray-lux",
+    "name": "雷米儿",
+    "index": 7,
+    "indexSuffix": "B",
+    "rank": 2380,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "电风滑翔",
+    "icon": "pal_icons/FlyingManta_Thunder.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlyingManta_Thunder.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WoolFox",
+    "slug": "cremis",
+    "name": "米露菲",
+    "index": 8,
+    "indexSuffix": "",
+    "rank": 2890,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "蓬松毛毛",
+    "icon": "pal_icons/WoolFox.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WoolFox.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KendoFrog",
+    "slug": "croajiro",
+    "name": "武道蛙",
+    "index": 9,
+    "indexSuffix": "",
+    "rank": 2600,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "蓄势跳跃",
+    "icon": "pal_icons/KendoFrog.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KendoFrog.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KendoFrog_Dark",
+    "slug": "croajiro-noct",
+    "name": "极道蛙",
+    "index": 9,
+    "indexSuffix": "B",
+    "rank": 1860,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "蓄势暗跃",
+    "icon": "pal_icons/KendoFrog_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KendoFrog_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LeafMomonga",
+    "slug": "herbil",
+    "name": "达鼠泥",
+    "index": 10,
+    "indexSuffix": "",
+    "rank": 2630,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "起搏鼠鼠",
+    "icon": "pal_icons/LeafMomonga.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LeafMomonga.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Ganesha",
+    "slug": "teafant",
+    "name": "壶小象",
+    "index": 11,
+    "indexSuffix": "",
+    "rank": 3070,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "疗伤之浴",
+    "icon": "pal_icons/Ganesha.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Ganesha.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "PlantSlime",
+    "slug": "gumoss",
+    "name": "叶泥泥",
+    "index": 12,
+    "indexSuffix": "",
+    "rank": 2950,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "樵夫啦啦队",
+    "icon": "pal_icons/PlantSlime.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/PlantSlime.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SamuraiDog",
+    "slug": "pupperai",
+    "name": "宗铭丸",
+    "index": 13,
+    "indexSuffix": "",
+    "rank": 2930,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "干劲支援",
+    "icon": "pal_icons/SamuraiDog.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SamuraiDog.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CloverFairy",
+    "slug": "clovee",
+    "name": "幸叶茸",
+    "index": 14,
+    "indexSuffix": "",
+    "rank": 2970,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "幸运三叶草",
+    "icon": "pal_icons/CloverFairy.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CloverFairy.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Hedgehog",
+    "slug": "jolthog",
+    "name": "电棘鼠",
+    "index": 15,
+    "indexSuffix": "",
+    "rank": 3030,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "电击炸弹",
+    "icon": "pal_icons/Hedgehog.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Hedgehog.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Hedgehog_Ice",
+    "slug": "jolthog-cryst",
+    "name": "冰刺鼠",
+    "index": 15,
+    "indexSuffix": "B",
+    "rank": 2850,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冻结炸弹",
+    "icon": "pal_icons/Hedgehog_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Hedgehog_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NegativeKoala",
+    "slug": "depresso",
+    "name": "瞅什魔",
+    "index": 16,
+    "indexSuffix": "",
+    "rank": 3000,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "摄取咖啡因",
+    "icon": "pal_icons/NegativeKoala.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NegativeKoala.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Penguin",
+    "slug": "pengullet",
+    "name": "企丸丸",
+    "index": 17,
+    "indexSuffix": "",
+    "rank": 2960,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "企丸丸发射",
+    "icon": "pal_icons/Penguin.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Penguin.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Penguin_Electric",
+    "slug": "pengullet-lux",
+    "name": "闪丸丸",
+    "index": 17,
+    "indexSuffix": "B",
+    "rank": 2490,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "闪丸丸发射",
+    "icon": "pal_icons/Penguin_Electric.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Penguin_Electric.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CaptainPenguin",
+    "slug": "penking",
+    "name": "企丸王",
+    "index": 18,
+    "indexSuffix": "",
+    "rank": 2070,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "勇敢的海之战士",
+    "icon": "pal_icons/CaptainPenguin.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CaptainPenguin.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CaptainPenguin_Black",
+    "slug": "penking-lux",
+    "name": "闪丸王",
+    "index": 18,
+    "indexSuffix": "B",
+    "rank": 1850,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "不屈的雷击船长",
+    "icon": "pal_icons/CaptainPenguin_Black.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CaptainPenguin_Black.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WizardOwl",
+    "slug": "hoocrates",
+    "name": "啼卡尔",
+    "index": 19,
+    "indexSuffix": "",
+    "rank": 2940,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "暗影睿智",
+    "icon": "pal_icons/WizardOwl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WizardOwl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Alpaca",
+    "slug": "melpaca",
+    "name": "美露帕",
+    "index": 20,
+    "indexSuffix": "",
+    "rank": 2720,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "蓬蓬羊毛",
+    "icon": "pal_icons/Alpaca.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Alpaca.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KingAlpaca",
+    "slug": "kingpaca",
+    "name": "君王美露帕",
+    "index": 21,
+    "indexSuffix": "",
+    "rank": 2220,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "大力国王",
+    "icon": "pal_icons/KingAlpaca.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KingAlpaca.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KingAlpaca_Ice",
+    "slug": "kingpaca-cryst",
+    "name": "冰帝美露帕",
+    "index": 21,
+    "indexSuffix": "B",
+    "rank": 1530,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冷酷国王",
+    "icon": "pal_icons/KingAlpaca_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KingAlpaca_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DreamDemon",
+    "slug": "daedream",
+    "name": "寐魔",
+    "index": 22,
+    "indexSuffix": "",
+    "rank": 2910,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "逐梦者",
+    "icon": "pal_icons/DreamDemon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DreamDemon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Monkey",
+    "slug": "tanzee",
+    "name": "新叶猿",
+    "index": 23,
+    "indexSuffix": "",
+    "rank": 2900,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "猴急步枪",
+    "icon": "pal_icons/Monkey.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Monkey.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Monkey_Fire",
+    "slug": "tanzee-ignis",
+    "name": "秋叶猿",
+    "index": 23,
+    "indexSuffix": "B",
+    "rank": 2830,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "枪火奇猿",
+    "icon": "pal_icons/Monkey_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Monkey_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NightFox",
+    "slug": "nox",
+    "name": "露娜蒂",
+    "index": 24,
+    "indexSuffix": "",
+    "rank": 2920,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冷娇",
+    "icon": "pal_icons/NightFox.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NightFox.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LavaGirl",
+    "slug": "flambelle",
+    "name": "融焰娘",
+    "index": 25,
+    "indexSuffix": "",
+    "rank": 2700,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "熔岩之泪",
+    "icon": "pal_icons/LavaGirl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LavaGirl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlameBambi",
+    "slug": "rooby",
+    "name": "燎火鹿",
+    "index": 26,
+    "indexSuffix": "",
+    "rank": 2870,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "微小火种",
+    "icon": "pal_icons/FlameBambi.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlameBambi.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Bastet",
+    "slug": "mau",
+    "name": "喵丝特",
+    "index": 27,
+    "indexSuffix": "",
+    "rank": 3040,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "招财猫",
+    "icon": "pal_icons/Bastet.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Bastet.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Bastet_Ice",
+    "slug": "mau-cryst",
+    "name": "冰丝特",
+    "index": 27,
+    "indexSuffix": "B",
+    "rank": 2750,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "晴天冰雳",
+    "icon": "pal_icons/Bastet_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Bastet_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Boar",
+    "slug": "rushoar",
+    "name": "草莽猪",
+    "index": 28,
+    "indexSuffix": "",
+    "rank": 2880,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "坚硬头壳",
+    "icon": "pal_icons/Boar.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Boar.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Kitsunebi",
+    "slug": "foxparks",
+    "name": "火绒狐",
+    "index": 29,
+    "indexSuffix": "",
+    "rank": 2990,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "抱抱火焰",
+    "icon": "pal_icons/Kitsunebi.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Kitsunebi.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Kitsunebi_Ice",
+    "slug": "foxparks-cryst",
+    "name": "雪绒狐",
+    "index": 29,
+    "indexSuffix": "B",
+    "rank": 2500,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "抱抱寒冰",
+    "icon": "pal_icons/Kitsunebi_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Kitsunebi_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NegativeOctopus",
+    "slug": "killamari",
+    "name": "勾魂鱿",
+    "index": 30,
+    "indexSuffix": "",
+    "rank": 2770,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "炸鱿鱼",
+    "icon": "pal_icons/NegativeOctopus.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NegativeOctopus.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NegativeOctopus_Neutral",
+    "slug": "killamari-primo",
+    "name": "蚀魂鱿",
+    "index": 30,
+    "indexSuffix": "B",
+    "rank": 2540,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "炸鱿鱼",
+    "icon": "pal_icons/NegativeOctopus_Neutral.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NegativeOctopus_Neutral.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CuteMole",
+    "slug": "fuddler",
+    "name": "遁地鼠",
+    "index": 31,
+    "indexSuffix": "",
+    "rank": 2790,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "矿工啦啦队",
+    "icon": "pal_icons/CuteMole.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CuteMole.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Deer",
+    "slug": "eikthyrdeer",
+    "name": "紫霞鹿",
+    "index": 32,
+    "indexSuffix": "",
+    "rank": 2710,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "森林守护者",
+    "icon": "pal_icons/Deer.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Deer.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Deer_Ground",
+    "slug": "eikthyrdeer-terra",
+    "name": "祇岳鹿",
+    "index": 32,
+    "indexSuffix": "B",
+    "rank": 2580,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "金之森守护者",
+    "icon": "pal_icons/Deer_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Deer_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Garm",
+    "slug": "direhowl",
+    "name": "猎狼",
+    "index": 33,
+    "indexSuffix": "",
+    "rank": 2680,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "猎狼骑手",
+    "icon": "pal_icons/Garm.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Garm.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BerryGoat",
+    "slug": "caprity",
+    "name": "灌木羊",
+    "index": 34,
+    "indexSuffix": "",
+    "rank": 2610,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "采摘野莓",
+    "icon": "pal_icons/BerryGoat.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BerryGoat.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BerryGoat_Dark",
+    "slug": "caprity-noct",
+    "name": "郁木羊",
+    "index": 34,
+    "indexSuffix": "B",
+    "rank": 1940,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "采摘毒腺",
+    "icon": "pal_icons/BerryGoat_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BerryGoat_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MopBaby",
+    "slug": "swee",
+    "name": "毛掸儿",
+    "index": 35,
+    "indexSuffix": "",
+    "rank": 2840,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "毛茸茸茸茸",
+    "icon": "pal_icons/MopBaby.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MopBaby.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MopKing",
+    "slug": "sweepa",
+    "name": "毛老爹",
+    "index": 36,
+    "indexSuffix": "",
+    "rank": 2150,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "毛茸茸之王",
+    "icon": "pal_icons/MopKing.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MopKing.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "TentacleTurtle",
+    "slug": "turtacle",
+    "name": "盔盔仔",
+    "index": 37,
+    "indexSuffix": "",
+    "rank": 2410,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "尖刺刺运输",
+    "icon": "pal_icons/TentacleTurtle.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/TentacleTurtle.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "TentacleTurtle_Ground",
+    "slug": "turtacle-terra",
+    "name": "金盔仔",
+    "index": 37,
+    "indexSuffix": "B",
+    "rank": 1330,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "亮闪闪运输",
+    "icon": "pal_icons/TentacleTurtle_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/TentacleTurtle_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WindChimes",
+    "slug": "hangyu",
+    "name": "吊缚灵",
+    "index": 38,
+    "indexSuffix": "",
+    "rank": 2780,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "空中秋千",
+    "icon": "pal_icons/WindChimes.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WindChimes.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WindChimes_Ice",
+    "slug": "hangyu-cryst",
+    "name": "冰缚灵",
+    "index": 38,
+    "indexSuffix": "B",
+    "rank": 2510,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "寒空秋千",
+    "icon": "pal_icons/WindChimes_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WindChimes_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SweetsSheep",
+    "slug": "woolipop",
+    "name": "棉花糖",
+    "index": 39,
+    "indexSuffix": "",
+    "rank": 2820,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "糖果甜心",
+    "icon": "pal_icons/SweetsSheep.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SweetsSheep.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SweetsSheep_Ground",
+    "slug": "woolipop-terra",
+    "name": "可可棉花糖",
+    "index": 39,
+    "indexSuffix": "B",
+    "rank": 2030,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "苦涩甜心",
+    "icon": "pal_icons/SweetsSheep_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SweetsSheep_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CowPal",
+    "slug": "mozzarina",
+    "name": "波霸牛",
+    "index": 40,
+    "indexSuffix": "",
+    "rank": 2800,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "产奶",
+    "icon": "pal_icons/CowPal.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CowPal.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlueDragon",
+    "slug": "azurobe",
+    "name": "碧海龙",
+    "index": 41,
+    "indexSuffix": "",
+    "rank": 1830,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "水翔之舞",
+    "icon": "pal_icons/BlueDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlueDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlueDragon_Ice",
+    "slug": "azurobe-cryst",
+    "name": "碧月龙",
+    "index": 41,
+    "indexSuffix": "B",
+    "rank": 1220,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冰翔之舞",
+    "icon": "pal_icons/BlueDragon_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlueDragon_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ElecCat",
+    "slug": "sparkit",
+    "name": "伏特喵",
+    "index": 42,
+    "indexSuffix": "",
+    "rank": 3010,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "静电",
+    "icon": "pal_icons/ElecCat.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ElecCat.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Kelpie",
+    "slug": "kelpsea",
+    "name": "水灵儿",
+    "index": 43,
+    "indexSuffix": "",
+    "rank": 2810,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "洒水",
+    "icon": "pal_icons/Kelpie.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Kelpie.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Kelpie_Fire",
+    "slug": "kelpsea-ignis",
+    "name": "火灵儿",
+    "index": 43,
+    "indexSuffix": "B",
+    "rank": 2470,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "熔岩泼洒",
+    "icon": "pal_icons/Kelpie_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Kelpie_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "PinkRabbit",
+    "slug": "ribbuny",
+    "name": "姬小兔",
+    "index": 44,
+    "indexSuffix": "",
+    "rank": 2860,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "微笑公主兔",
+    "icon": "pal_icons/PinkRabbit.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/PinkRabbit.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "PinkRabbit_Grass",
+    "slug": "ribbuny-botan",
+    "name": "艾小兔",
+    "index": 44,
+    "indexSuffix": "B",
+    "rank": 2460,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "暴力青草兔",
+    "icon": "pal_icons/PinkRabbit_Grass.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/PinkRabbit_Grass.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "JellyfishFairy",
+    "slug": "jelliette",
+    "name": "海月仙",
+    "index": 45,
+    "indexSuffix": "",
+    "rank": 2650,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "海月仙祝福",
+    "icon": "pal_icons/JellyfishFairy.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/JellyfishFairy.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "JellyfishGhost",
+    "slug": "jellroy",
+    "name": "海月灵",
+    "index": 46,
+    "indexSuffix": "",
+    "rank": 2590,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "海月灵祝福",
+    "icon": "pal_icons/JellyfishGhost.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/JellyfishGhost.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ClioneTwins",
+    "slug": "amione",
+    "name": "莉欧·莉涅",
+    "index": 47,
+    "indexSuffix": "",
+    "rank": 2520,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "魔力双子",
+    "icon": "pal_icons/ClioneTwins.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ClioneTwins.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "OctopusGirl",
+    "slug": "gloopie",
+    "name": "墨沫姬",
+    "index": 48,
+    "indexSuffix": "",
+    "rank": 2530,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "缠人小公主",
+    "icon": "pal_icons/OctopusGirl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/OctopusGirl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "OctopusGirl_Neutral",
+    "slug": "gloopie-primo",
+    "name": "梦沫姬",
+    "index": 48,
+    "indexSuffix": "B",
+    "rank": 1630,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "咬咬姬",
+    "icon": "pal_icons/OctopusGirl_Neutral.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/OctopusGirl_Neutral.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Eagle",
+    "slug": "galeclaw",
+    "name": "天擒鸟",
+    "index": 49,
+    "indexSuffix": "",
+    "rank": 2570,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "天擒鸟滑翔",
+    "icon": "pal_icons/Eagle.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Eagle.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GhostBlackCat",
+    "slug": "wispaw",
+    "name": "念影喵",
+    "index": 50,
+    "indexSuffix": "",
+    "rank": 2250,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "附体灵猫",
+    "icon": "pal_icons/GhostBlackCat.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GhostBlackCat.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "HawkBird",
+    "slug": "nitewing",
+    "name": "疾风隼",
+    "index": 51,
+    "indexSuffix": "",
+    "rank": 2560,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "旅伴",
+    "icon": "pal_icons/HawkBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/HawkBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CatBat",
+    "slug": "tombat",
+    "name": "猫蝠怪",
+    "index": 52,
+    "indexSuffix": "",
+    "rank": 2340,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "猫妖感应",
+    "icon": "pal_icons/CatBat.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CatBat.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ColorfulBird",
+    "slug": "tocotoco",
+    "name": "炸蛋鸟",
+    "index": 53,
+    "indexSuffix": "",
+    "rank": 2730,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "炸蛋发射器",
+    "icon": "pal_icons/ColorfulBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ColorfulBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Kirin",
+    "slug": "univolt",
+    "name": "雷角马",
+    "index": 54,
+    "indexSuffix": "",
+    "rank": 2270,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "疾风迅雷",
+    "icon": "pal_icons/Kirin.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Kirin.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Kirin_Ice",
+    "slug": "univolt-cryst",
+    "name": "凌角马",
+    "index": 54,
+    "indexSuffix": "B",
+    "rank": 540,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "冰华乱舞",
+    "icon": "pal_icons/Kirin_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Kirin_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SharkKid",
+    "slug": "gobfin",
+    "name": "鲨小子",
+    "index": 55,
+    "indexSuffix": "",
+    "rank": 2550,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "易怒鲨鲨",
+    "icon": "pal_icons/SharkKid.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SharkKid.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SharkKid_Fire",
+    "slug": "gobfin-ignis",
+    "name": "红小鲨",
+    "index": 55,
+    "indexSuffix": "B",
+    "rank": 2430,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "易怒鲨鲨",
+    "icon": "pal_icons/SharkKid_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SharkKid_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Werewolf",
+    "slug": "loupmoon",
+    "name": "月镰魔",
+    "index": 56,
+    "indexSuffix": "",
+    "rank": 2110,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黑暗中的闪亮利爪",
+    "icon": "pal_icons/Werewolf.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Werewolf.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Werewolf_Ice",
+    "slug": "loupmoon-cryst",
+    "name": "霜镰魔",
+    "index": 56,
+    "indexSuffix": "B",
+    "rank": 1290,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冰结利爪",
+    "icon": "pal_icons/Werewolf_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Werewolf_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DarkCrow",
+    "slug": "cawgnito",
+    "name": "黑鸦隐士",
+    "index": 57,
+    "indexSuffix": "",
+    "rank": 2370,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "夜袭怪鸟",
+    "icon": "pal_icons/DarkCrow.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DarkCrow.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlameBuffalo",
+    "slug": "arsox",
+    "name": "炽焰牛",
+    "index": 58,
+    "indexSuffix": "",
+    "rank": 2320,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "温暖之躯",
+    "icon": "pal_icons/FlameBuffalo.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlameBuffalo.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FluffyBird",
+    "slug": "muffly",
+    "name": "雪绵啾",
+    "index": 59,
+    "indexSuffix": "",
+    "rank": 2480,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "软萌圆圆鸟",
+    "icon": "pal_icons/FluffyBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FluffyBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LittleBriarRose",
+    "slug": "bristla",
+    "name": "荊棘魔仙",
+    "index": 60,
+    "indexSuffix": "",
+    "rank": 2690,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "公主的视线",
+    "icon": "pal_icons/LittleBriarRose.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LittleBriarRose.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CuteButterfly",
+    "slug": "cinnamoth",
+    "name": "幻悦蝶",
+    "index": 61,
+    "indexSuffix": "",
+    "rank": 2620,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "神秘鳞粉",
+    "icon": "pal_icons/CuteButterfly.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CuteButterfly.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ElecPomeranian",
+    "slug": "puffolt",
+    "name": "电汪汪",
+    "index": 62,
+    "indexSuffix": "",
+    "rank": 2360,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "电光强化",
+    "icon": "pal_icons/ElecPomeranian.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ElecPomeranian.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FairyDragon",
+    "slug": "elphidran",
+    "name": "精灵龙",
+    "index": 63,
+    "indexSuffix": "",
+    "rank": 2280,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "善良的圣洁之龙",
+    "icon": "pal_icons/FairyDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FairyDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FairyDragon_Water",
+    "slug": "elphidran-aqua",
+    "name": "水灵龙",
+    "index": 63,
+    "indexSuffix": "B",
+    "rank": 1640,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "善良的流水之龙",
+    "icon": "pal_icons/FairyDragon_Water.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FairyDragon_Water.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BirdDragon",
+    "slug": "vanwyrm",
+    "name": "烽歌龙",
+    "index": 64,
+    "indexSuffix": "",
+    "rank": 1650,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "大空袭击者",
+    "icon": "pal_icons/BirdDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BirdDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BirdDragon_Ice",
+    "slug": "vanwyrm-cryst",
+    "name": "霜歌龙",
+    "index": 64,
+    "indexSuffix": "B",
+    "rank": 1430,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "大空袭击者",
+    "icon": "pal_icons/BirdDragon_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BirdDragon_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CatVampire",
+    "slug": "felbat",
+    "name": "夜幕魔蝠",
+    "index": 65,
+    "indexSuffix": "",
+    "rank": 1570,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "窃取生命",
+    "icon": "pal_icons/CatVampire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CatVampire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "VioletFairy",
+    "slug": "vaelet",
+    "name": "薇莉塔",
+    "index": 66,
+    "indexSuffix": "",
+    "rank": 1480,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "大地净化",
+    "icon": "pal_icons/VioletFairy.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/VioletFairy.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SoldierBee",
+    "slug": "beegarde",
+    "name": "骑士蜂",
+    "index": 67,
+    "indexSuffix": "",
+    "rank": 2350,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "工蜂",
+    "icon": "pal_icons/SoldierBee.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SoldierBee.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "QueenBee",
+    "slug": "elizabee",
+    "name": "女皇蜂",
+    "index": 68,
+    "indexSuffix": "",
+    "rank": 1790,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "女王蜂的统率",
+    "icon": "pal_icons/QueenBee.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/QueenBee.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "PinkLizard",
+    "slug": "lovander",
+    "name": "博爱蜥",
+    "index": 69,
+    "indexSuffix": "",
+    "rank": 2090,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "爱心吸取",
+    "icon": "pal_icons/PinkLizard.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/PinkLizard.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NaughtyCat",
+    "slug": "grintale",
+    "name": "笑魇猫",
+    "index": 70,
+    "indexSuffix": "",
+    "rank": 2120,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "猫眼逼人",
+    "icon": "pal_icons/NaughtyCat.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NaughtyCat.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "PurpleSpider",
+    "slug": "tarantriss",
+    "name": "桃蛛娘",
+    "index": 71,
+    "indexSuffix": "",
+    "rank": 1730,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "桃色之网",
+    "icon": "pal_icons/PurpleSpider.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/PurpleSpider.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceSeal",
+    "slug": "polapup",
+    "name": "香草豹冰",
+    "index": 72,
+    "indexSuffix": "",
+    "rank": 1660,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "滑雪行家",
+    "icon": "pal_icons/IceSeal.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceSeal.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceSeal_Ground",
+    "slug": "polapup-terra",
+    "name": "巧克力豹冰",
+    "index": 72,
+    "indexSuffix": "B",
+    "rank": 1100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "雪山速滑",
+    "icon": "pal_icons/IceSeal_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceSeal_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LizardMan",
+    "slug": "leezpunk",
+    "name": "朋克蜥",
+    "index": 73,
+    "indexSuffix": "",
+    "rank": 2670,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "透明化",
+    "icon": "pal_icons/LizardMan.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LizardMan.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LizardMan_Fire",
+    "slug": "leezpunk-ignis",
+    "name": "热血蜥",
+    "index": 73,
+    "indexSuffix": "B",
+    "rank": 2640,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "透明化",
+    "icon": "pal_icons/LizardMan_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LizardMan_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Gorilla",
+    "slug": "gorirat",
+    "name": "铁拳猿",
+    "index": 74,
+    "indexSuffix": "",
+    "rank": 2140,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "火力全开大猩猩模式",
+    "icon": "pal_icons/Gorilla.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Gorilla.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Gorilla_Ground",
+    "slug": "gorirat-terra",
+    "name": "石掌猿",
+    "index": 74,
+    "indexSuffix": "B",
+    "rank": 1880,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "火力全开铁臂大猩猩",
+    "icon": "pal_icons/Gorilla_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Gorilla_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Serpent",
+    "slug": "surfent",
+    "name": "滑水蛇",
+    "index": 75,
+    "indexSuffix": "",
+    "rank": 2440,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "滑滑水蛇",
+    "icon": "pal_icons/Serpent.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Serpent.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Serpent_Ground",
+    "slug": "surfent-terra",
+    "name": "流沙蛇",
+    "index": 75,
+    "indexSuffix": "B",
+    "rank": 1840,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "滑滑沙蛇",
+    "icon": "pal_icons/Serpent_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Serpent_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "RobinHood",
+    "slug": "robinquill",
+    "name": "羽箭射手",
+    "index": 76,
+    "indexSuffix": "",
+    "rank": 2260,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "射箭达人",
+    "icon": "pal_icons/RobinHood.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/RobinHood.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "RobinHood_Ground",
+    "slug": "robinquill-terra",
+    "name": "山岳射手",
+    "index": 76,
+    "indexSuffix": "B",
+    "rank": 2050,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "挽弓达人",
+    "icon": "pal_icons/RobinHood_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/RobinHood_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlowerRabbit",
+    "slug": "flopie",
+    "name": "波娜兔",
+    "index": 77,
+    "indexSuffix": "",
+    "rank": 2660,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "兔兔助手",
+    "icon": "pal_icons/FlowerRabbit.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlowerRabbit.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FoxMage",
+    "slug": "wixen",
+    "name": "焰巫狐",
+    "index": 78,
+    "indexSuffix": "",
+    "rank": 2080,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "狐神大人",
+    "icon": "pal_icons/FoxMage.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FoxMage.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FoxMage_Dark",
+    "slug": "wixen-noct",
+    "name": "幽巫狐",
+    "index": 78,
+    "indexSuffix": "B",
+    "rank": 1490,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "巫神大人",
+    "icon": "pal_icons/FoxMage_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FoxMage_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CatMage",
+    "slug": "katress",
+    "name": "暗巫猫",
+    "index": 79,
+    "indexSuffix": "",
+    "rank": 2040,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "怪奇黑魔法",
+    "icon": "pal_icons/CatMage.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CatMage.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CatMage_Fire",
+    "slug": "katress-ignis",
+    "name": "炽巫猫",
+    "index": 79,
+    "indexSuffix": "B",
+    "rank": 1800,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "热情黑魔法",
+    "icon": "pal_icons/CatMage_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CatMage_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "HadesBird",
+    "slug": "helzephyr",
+    "name": "雷冥鸟",
+    "index": 80,
+    "indexSuffix": "",
+    "rank": 1130,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冥府之翼",
+    "icon": "pal_icons/HadesBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/HadesBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "HadesBird_Electric",
+    "slug": "helzephyr-lux",
+    "name": "雷鸣鸟",
+    "index": 80,
+    "indexSuffix": "B",
+    "rank": 960,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "雷鸣之翼",
+    "icon": "pal_icons/HadesBird_Electric.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/HadesBird_Electric.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassMinotaur",
+    "slug": "elgrove",
+    "name": "密林陶洛斯",
+    "index": 81,
+    "indexSuffix": "",
+    "rank": 2020,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "大自然之威",
+    "icon": "pal_icons/GrassMinotaur.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassMinotaur.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassMinotaur_Ice",
+    "slug": "elgrove-cryst",
+    "name": "冰峰陶洛斯",
+    "index": 81,
+    "indexSuffix": "B",
+    "rank": 440,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "永冻土之威",
+    "icon": "pal_icons/GrassMinotaur_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassMinotaur_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Mutant",
+    "slug": "lunaris",
+    "name": "秘斯媞雅",
+    "index": 82,
+    "indexSuffix": "",
+    "rank": 2010,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "反重力",
+    "icon": "pal_icons/Mutant.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Mutant.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FengyunDeeper",
+    "slug": "fenglope",
+    "name": "云海鹿",
+    "index": 83,
+    "indexSuffix": "",
+    "rank": 1960,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "风云",
+    "icon": "pal_icons/FengyunDeeper.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FengyunDeeper.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FengyunDeeper_Electric",
+    "slug": "fenglope-lux",
+    "name": "雷隐鹿",
+    "index": 83,
+    "indexSuffix": "B",
+    "rank": 900,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "雷云",
+    "icon": "pal_icons/FengyunDeeper_Electric.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FengyunDeeper_Electric.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlowerDinosaur",
+    "slug": "dinossom",
+    "name": "花冠龙",
+    "index": 84,
+    "indexSuffix": "",
+    "rank": 2100,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "馥郁花香之龙",
+    "icon": "pal_icons/FlowerDinosaur.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlowerDinosaur.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlowerDinosaur_Electric",
+    "slug": "dinossom-lux",
+    "name": "雷冠龙",
+    "index": 84,
+    "indexSuffix": "B",
+    "rank": 1890,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      },
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "落雷绽放之龙",
+    "icon": "pal_icons/FlowerDinosaur_Electric.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlowerDinosaur_Electric.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Ronin",
+    "slug": "bushi",
+    "name": "浪刃武士",
+    "index": 85,
+    "indexSuffix": "",
+    "rank": 1560,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "紫电一闪",
+    "icon": "pal_icons/Ronin.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Ronin.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Ronin_Dark",
+    "slug": "bushi-noct",
+    "name": "鬼刃武士",
+    "index": 85,
+    "indexSuffix": "B",
+    "rank": 840,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "秘技·紫电一闪",
+    "icon": "pal_icons/Ronin_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Ronin_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceCrocodile",
+    "slug": "munchill",
+    "name": "肚肚鳄",
+    "index": 86,
+    "indexSuffix": "",
+    "rank": 2130,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "雪盆大口",
+    "icon": "pal_icons/IceCrocodile.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceCrocodile.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassMammoth",
+    "slug": "mammorest",
+    "name": "森猛犸",
+    "index": 87,
+    "indexSuffix": "",
+    "rank": 1340,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "盖亚粉碎者",
+    "icon": "pal_icons/GrassMammoth.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassMammoth.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassMammoth_Ice",
+    "slug": "mammorest-cryst",
+    "name": "雪猛犸",
+    "index": 87,
+    "indexSuffix": "B",
+    "rank": 1070,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冰霜粉碎者",
+    "icon": "pal_icons/GrassMammoth_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassMammoth_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "StuffedShark",
+    "slug": "finsider",
+    "name": "布偶鲨",
+    "index": 88,
+    "indexSuffix": "",
+    "rank": 2450,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "水流扳机",
+    "icon": "pal_icons/StuffedShark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/StuffedShark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "StuffedShark_Fire",
+    "slug": "finsider-ignis",
+    "name": "粉粉布偶鲨",
+    "index": 88,
+    "indexSuffix": "B",
+    "rank": 2240,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "炎炎收纳间",
+    "icon": "pal_icons/StuffedShark_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/StuffedShark_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlowerDoll",
+    "slug": "petallia",
+    "name": "花丽娜",
+    "index": 89,
+    "indexSuffix": "",
+    "rank": 1720,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "花精灵的祝福",
+    "icon": "pal_icons/FlowerDoll.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlowerDoll.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlowerDoll_Fire",
+    "slug": "petallia-ignis",
+    "name": "樱丽娜",
+    "index": 89,
+    "indexSuffix": "B",
+    "rank": 820,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "花精灵的热情",
+    "icon": "pal_icons/FlowerDoll_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlowerDoll_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "PandaGirl",
+    "slug": "leafan",
+    "name": "莉芳",
+    "index": 90,
+    "indexSuffix": "",
+    "rank": 1410,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "克己复礼",
+    "icon": "pal_icons/PandaGirl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/PandaGirl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Baphomet",
+    "slug": "incineram",
+    "name": "炎魔羊",
+    "index": 91,
+    "indexSuffix": "",
+    "rank": 1470,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "焰爪猎人",
+    "icon": "pal_icons/Baphomet.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Baphomet.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Baphomet_Dark",
+    "slug": "incineram-noct",
+    "name": "暗魔羊",
+    "index": 91,
+    "indexSuffix": "B",
+    "rank": 1310,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黑爪猎人",
+    "icon": "pal_icons/Baphomet_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Baphomet_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "RaijinDaughter",
+    "slug": "dazzi",
+    "name": "雷鸣童子",
+    "index": 92,
+    "indexSuffix": "",
+    "rank": 2400,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "雷电姑娘",
+    "icon": "pal_icons/RaijinDaughter.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/RaijinDaughter.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "RaijinDaughter_Water",
+    "slug": "dazzi-noct",
+    "name": "天阴童子",
+    "index": 92,
+    "indexSuffix": "B",
+    "rank": 1910,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "乌云姑娘",
+    "icon": "pal_icons/RaijinDaughter_Water.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/RaijinDaughter_Water.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FireKirin",
+    "slug": "pyrin",
+    "name": "火麒麟",
+    "index": 93,
+    "indexSuffix": "",
+    "rank": 1980,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "赤兔马",
+    "icon": "pal_icons/FireKirin.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FireKirin.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FireKirin_Dark",
+    "slug": "pyrin-noct",
+    "name": "邪麒麟",
+    "index": 93,
+    "indexSuffix": "B",
+    "rank": 1870,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黑兔马",
+    "icon": "pal_icons/FireKirin_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FireKirin_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LazyDragon",
+    "slug": "relaxaurus",
+    "name": "佩克龙",
+    "index": 94,
+    "indexSuffix": "",
+    "rank": 1090,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "饿饿飞弹",
+    "icon": "pal_icons/LazyDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LazyDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LazyDragon_Electric",
+    "slug": "relaxaurus-lux",
+    "name": "派克龙",
+    "index": 94,
+    "indexSuffix": "B",
+    "rank": 770,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "飞弹盛宴",
+    "icon": "pal_icons/LazyDragon_Electric.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LazyDragon_Electric.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceFox",
+    "slug": "foxcicle",
+    "name": "吹雪狐",
+    "index": 95,
+    "indexSuffix": "",
+    "rank": 1970,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "极光的指引",
+    "icon": "pal_icons/IceFox.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceFox.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ThunderBird",
+    "slug": "beakon",
+    "name": "迅雷鸟",
+    "index": 96,
+    "indexSuffix": "",
+    "rank": 1690,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "天雷",
+    "icon": "pal_icons/ThunderBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ThunderBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ThunderBird_Ice",
+    "slug": "beakon-cryst",
+    "name": "疾霜鸟",
+    "index": 96,
+    "indexSuffix": "B",
+    "rank": 580,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "天霰",
+    "icon": "pal_icons/ThunderBird_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ThunderBird_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GhostAnglerfish",
+    "slug": "ghangler",
+    "name": "冥灯鱼",
+    "index": 97,
+    "indexSuffix": "",
+    "rank": 880,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "暗夜引路人",
+    "icon": "pal_icons/GhostAnglerfish.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GhostAnglerfish.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GhostAnglerfish_Fire",
+    "slug": "ghangler-ignis",
+    "name": "炙灯鱼",
+    "index": 97,
+    "indexSuffix": "B",
+    "rank": 720,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "深海名厨",
+    "icon": "pal_icons/GhostAnglerfish_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GhostAnglerfish_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ThunderDog",
+    "slug": "rayhound",
+    "name": "霹雳犬",
+    "index": 98,
+    "indexSuffix": "",
+    "rank": 1920,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "雷雳跃行",
+    "icon": "pal_icons/ThunderDog.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ThunderDog.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ThunderDog_Ice",
+    "slug": "rayhound-cryst",
+    "name": "凛光犬",
+    "index": 98,
+    "indexSuffix": "B",
+    "rank": 1600,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "霜跃疾行",
+    "icon": "pal_icons/ThunderDog_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ThunderDog_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DarkScorpion",
+    "slug": "menasting",
+    "name": "冥铠蝎",
+    "index": 99,
+    "indexSuffix": "",
+    "rank": 1120,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "钢铁之蝎",
+    "icon": "pal_icons/DarkScorpion.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DarkScorpion.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DarkScorpion_Ground",
+    "slug": "menasting-terra",
+    "name": "金铠蝎",
+    "index": 99,
+    "indexSuffix": "B",
+    "rank": 640,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黄金之蝎",
+    "icon": "pal_icons/DarkScorpion_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DarkScorpion_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CactusDoll",
+    "slug": "needoll",
+    "name": "球抱苞",
+    "index": 100,
+    "indexSuffix": "",
+    "rank": 2420,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "请你抱抱我",
+    "icon": "pal_icons/CactusDoll.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CactusDoll.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CactusDoll_Dark",
+    "slug": "needoll-noct",
+    "name": "妖抱苞",
+    "index": 100,
+    "indexSuffix": "B",
+    "rank": 1580,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "紧紧抱住你",
+    "icon": "pal_icons/CactusDoll_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CactusDoll_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceDeer",
+    "slug": "reindrix",
+    "name": "严冬鹿",
+    "index": 101,
+    "indexSuffix": "",
+    "rank": 1930,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冰凉之躯",
+    "icon": "pal_icons/IceDeer.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceDeer.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassPanda",
+    "slug": "mossanda",
+    "name": "叶胖达",
+    "index": 102,
+    "indexSuffix": "",
+    "rank": 2060,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "不良熊猫",
+    "icon": "pal_icons/GrassPanda.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassPanda.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassPanda_Electric",
+    "slug": "mossanda-lux",
+    "name": "雷胖达",
+    "index": 102,
+    "indexSuffix": "B",
+    "rank": 1440,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "不良熊猫",
+    "icon": "pal_icons/GrassPanda_Electric.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassPanda_Electric.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WeaselDragon",
+    "slug": "chillet",
+    "name": "疾旋鼬",
+    "index": 103,
+    "indexSuffix": "",
+    "rank": 2330,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "扭扭鼬鼬",
+    "icon": "pal_icons/WeaselDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WeaselDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WeaselDragon_Fire",
+    "slug": "chillet-ignis",
+    "name": "桃旋鼬",
+    "index": 103,
+    "indexSuffix": "B",
+    "rank": 1950,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "烧鼬鼬",
+    "icon": "pal_icons/WeaselDragon_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WeaselDragon_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "RedArmorBird",
+    "slug": "ragnahawk",
+    "name": "燧火鸟",
+    "index": 104,
+    "indexSuffix": "",
+    "rank": 1050,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "烈焰之翼",
+    "icon": "pal_icons/RedArmorBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/RedArmorBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "VolcanoDragon",
+    "slug": "moldron",
+    "name": "流焰龙",
+    "index": 105,
+    "indexSuffix": "",
+    "rank": 750,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "熔岩霸主",
+    "icon": "pal_icons/VolcanoDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/VolcanoDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "VolcanoDragon_Ice",
+    "slug": "moldron-cryst",
+    "name": "川霜龙",
+    "index": 105,
+    "indexSuffix": "B",
+    "rank": 380,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "寒冰霸主",
+    "icon": "pal_icons/VolcanoDragon_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/VolcanoDragon_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "TropicalOstrich",
+    "slug": "palumba",
+    "name": "咕咕桑葩",
+    "index": 106,
+    "indexSuffix": "",
+    "rank": 1240,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "桑巴舞步",
+    "icon": "pal_icons/TropicalOstrich.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/TropicalOstrich.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DrillGame",
+    "slug": "digtoise",
+    "name": "碎岩龟",
+    "index": 107,
+    "indexSuffix": "",
+    "rank": 1550,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "钻头粉碎者",
+    "icon": "pal_icons/DrillGame.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DrillGame.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SakuraSaurus",
+    "slug": "broncherry",
+    "name": "连理龙",
+    "index": 108,
+    "indexSuffix": "",
+    "rank": 1380,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "恋香初绽",
+    "icon": "pal_icons/SakuraSaurus.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SakuraSaurus.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SakuraSaurus_Water",
+    "slug": "broncherry-aqua",
+    "name": "海誓龙",
+    "index": 108,
+    "indexSuffix": "B",
+    "rank": 1080,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "纯心盛绽",
+    "icon": "pal_icons/SakuraSaurus_Water.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SakuraSaurus_Water.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LazyCatfish",
+    "slug": "dumud",
+    "name": "趴趴鲶",
+    "index": 109,
+    "indexSuffix": "",
+    "rank": 2290,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "改善土质",
+    "icon": "pal_icons/LazyCatfish.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LazyCatfish.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LazyCatfish_Gold",
+    "slug": "dumud-gild",
+    "name": "梆梆鲶",
+    "index": 109,
+    "indexSuffix": "B",
+    "rank": 1620,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黄金丰收",
+    "icon": "pal_icons/LazyCatfish_Gold.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LazyCatfish_Gold.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Plesiosaur",
+    "slug": "braloha",
+    "name": "梁叶龙",
+    "index": 110,
+    "indexSuffix": "",
+    "rank": 1030,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "暖洋洋晴日",
+    "icon": "pal_icons/Plesiosaur.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Plesiosaur.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "AmaterasuWolf",
+    "slug": "kitsun",
+    "name": "苍焰狼",
+    "index": 111,
+    "indexSuffix": "",
+    "rank": 1670,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "日轮之狼",
+    "icon": "pal_icons/AmaterasuWolf.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/AmaterasuWolf.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "AmaterasuWolf_Dark",
+    "slug": "kitsun-noct",
+    "name": "幽焰狼",
+    "index": 111,
+    "indexSuffix": "B",
+    "rank": 800,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "昙天之狼",
+    "icon": "pal_icons/AmaterasuWolf_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/AmaterasuWolf_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Manticore",
+    "slug": "blazehowl",
+    "name": "狱焰王",
+    "index": 112,
+    "indexSuffix": "",
+    "rank": 1360,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "狱炎狮子",
+    "icon": "pal_icons/Manticore.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Manticore.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Manticore_Dark",
+    "slug": "blazehowl-noct",
+    "name": "狱阎王",
+    "index": 112,
+    "indexSuffix": "B",
+    "rank": 1270,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黑炎狮子",
+    "icon": "pal_icons/Manticore_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Manticore_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "HerculesBeetle",
+    "slug": "warsect",
+    "name": "铠格力斯",
+    "index": 113,
+    "indexSuffix": "",
+    "rank": 1280,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      },
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "攻守一体的黑甲",
+    "icon": "pal_icons/HerculesBeetle.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/HerculesBeetle.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "HerculesBeetle_Ground",
+    "slug": "warsect-terra",
+    "name": "格鲁力斯",
+    "index": 113,
+    "indexSuffix": "B",
+    "rank": 630,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "攻守一体的金甲",
+    "icon": "pal_icons/HerculesBeetle_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/HerculesBeetle_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SnowPeafowl",
+    "slug": "frostplume",
+    "name": "白真雪雀",
+    "index": 114,
+    "indexSuffix": "",
+    "rank": 860,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "孔雀迅捷",
+    "icon": "pal_icons/SnowPeafowl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SnowPeafowl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DarkFlameFox",
+    "slug": "majex",
+    "name": "紫狐娇",
+    "index": 115,
+    "indexSuffix": "",
+    "rank": 1010,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "暗狐秘咒",
+    "icon": "pal_icons/DarkFlameFox.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DarkFlameFox.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WhiteMoth",
+    "slug": "sibelyx",
+    "name": "绸笠蛾",
+    "index": 116,
+    "indexSuffix": "",
+    "rank": 1810,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "神秘缠丝者",
+    "icon": "pal_icons/WhiteMoth.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WhiteMoth.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WhiteMoth_Neutral",
+    "slug": "sibelyx-primo",
+    "name": "绢笠蛾",
+    "index": 116,
+    "indexSuffix": "B",
+    "rank": 650,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "神秘缠金丝者",
+    "icon": "pal_icons/WhiteMoth_Neutral.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WhiteMoth_Neutral.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GhostBeast",
+    "slug": "maraith",
+    "name": "噬魂兽",
+    "index": 117,
+    "indexSuffix": "",
+    "rank": 1710,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冥界使者",
+    "icon": "pal_icons/GhostBeast.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GhostBeast.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MushroomDragon",
+    "slug": "shroomer",
+    "name": "菇咚",
+    "index": 118,
+    "indexSuffix": "",
+    "rank": 1520,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "飘飘然孢子",
+    "icon": "pal_icons/MushroomDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MushroomDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MushroomDragon_Dark",
+    "slug": "shroomer-noct",
+    "name": "菇波",
+    "index": 118,
+    "indexSuffix": "B",
+    "rank": 1450,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "幽幽然孢子",
+    "icon": "pal_icons/MushroomDragon_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MushroomDragon_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceWitch",
+    "slug": "icelyn",
+    "name": "冰姬灵",
+    "index": 119,
+    "indexSuffix": "",
+    "rank": 1260,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "魔女的冷气",
+    "icon": "pal_icons/IceWitch.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceWitch.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MummyPal",
+    "slug": "gildra",
+    "name": "缚乃伊",
+    "index": 120,
+    "indexSuffix": "",
+    "rank": 1170,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "黄泉归来",
+    "icon": "pal_icons/MummyPal.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MummyPal.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Umihebi",
+    "slug": "jormuntide",
+    "name": "覆海龙",
+    "index": 121,
+    "indexSuffix": "",
+    "rank": 590,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "呼唤风暴的深海龙",
+    "icon": "pal_icons/Umihebi.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Umihebi.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Umihebi_Fire",
+    "slug": "jormuntide-ignis",
+    "name": "腾炎龙",
+    "index": 121,
+    "indexSuffix": "B",
+    "rank": 170,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "呼唤风暴的熔岩龙",
+    "icon": "pal_icons/Umihebi_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Umihebi_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Suzaku",
+    "slug": "suzaku",
+    "name": "朱雀",
+    "index": 122,
+    "indexSuffix": "",
+    "rank": 1200,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "炎之翼",
+    "icon": "pal_icons/Suzaku.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Suzaku.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Suzaku_Water",
+    "slug": "suzaku-aqua",
+    "name": "清雀",
+    "index": 122,
+    "indexSuffix": "B",
+    "rank": 740,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "水之翼",
+    "icon": "pal_icons/Suzaku_Water.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Suzaku_Water.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FeatherOstrich",
+    "slug": "dazemu",
+    "name": "战冠雀",
+    "index": 123,
+    "indexSuffix": "",
+    "rank": 2210,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "飞砂腿",
+    "icon": "pal_icons/FeatherOstrich.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FeatherOstrich.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SkyDragon",
+    "slug": "quivern",
+    "name": "天羽龙",
+    "index": 124,
+    "indexSuffix": "",
+    "rank": 1210,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "天空龙的慈爱",
+    "icon": "pal_icons/SkyDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SkyDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SkyDragon_Grass",
+    "slug": "quivern-botan",
+    "name": "翠羽龙",
+    "index": 124,
+    "indexSuffix": "B",
+    "rank": 1300,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "翠龙的慈爱",
+    "icon": "pal_icons/SkyDragon_Grass.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SkyDragon_Grass.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LeafPrincess",
+    "slug": "lullu",
+    "name": "春彩娘",
+    "index": 125,
+    "indexSuffix": "",
+    "rank": 1990,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "繁花告春",
+    "icon": "pal_icons/LeafPrincess.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LeafPrincess.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SmallArmadillo",
+    "slug": "kikit",
+    "name": "球犰",
+    "index": 126,
+    "indexSuffix": "",
+    "rank": 2310,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "滚滚沙滩球",
+    "icon": "pal_icons/SmallArmadillo.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SmallArmadillo.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GuardianDog",
+    "slug": "yakumo",
+    "name": "八云犬",
+    "index": 127,
+    "indexSuffix": "",
+    "rank": 2230,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "物以类聚",
+    "icon": "pal_icons/GuardianDog.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GuardianDog.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SwordCutlassfish",
+    "slug": "skutlass",
+    "name": "鞘刀鱼",
+    "index": 128,
+    "indexSuffix": "",
+    "rank": 1420,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "斩骨断肉",
+    "icon": "pal_icons/SwordCutlassfish.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SwordCutlassfish.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SwordCutlassfish_Fire",
+    "slug": "skutlass-ignis",
+    "name": "炼刃鱼",
+    "index": 128,
+    "indexSuffix": "B",
+    "rank": 1590,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "炼骨断肉",
+    "icon": "pal_icons/SwordCutlassfish_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SwordCutlassfish_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "VolcanicMonster",
+    "slug": "reptyro",
+    "name": "熔岩兽",
+    "index": 129,
+    "indexSuffix": "",
+    "rank": 1060,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "贪食矿石之兽",
+    "icon": "pal_icons/VolcanicMonster.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/VolcanicMonster.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "VolcanicMonster_Ice",
+    "slug": "reptyro-cryst",
+    "name": "寒霜兽",
+    "index": 129,
+    "indexSuffix": "B",
+    "rank": 600,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "贪食冰霜之兽",
+    "icon": "pal_icons/VolcanicMonster_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/VolcanicMonster_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NightBlueHorse",
+    "slug": "starryon",
+    "name": "夜冥驹",
+    "index": 130,
+    "indexSuffix": "",
+    "rank": 1150,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "夜舞者",
+    "icon": "pal_icons/NightBlueHorse.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NightBlueHorse.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NightBlueHorse_Neutral",
+    "slug": "starryon-primo",
+    "name": "日耀驹",
+    "index": 130,
+    "indexSuffix": "B",
+    "rank": 430,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "光舞者",
+    "icon": "pal_icons/NightBlueHorse_Neutral.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NightBlueHorse_Neutral.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "RockBeast",
+    "slug": "pierdon",
+    "name": "磐峰兽",
+    "index": 131,
+    "indexSuffix": "",
+    "rank": 1110,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "能量石",
+    "icon": "pal_icons/RockBeast.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/RockBeast.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "RockBeast_Ice",
+    "slug": "pierdon-cryst",
+    "name": "寒峰兽",
+    "index": 131,
+    "indexSuffix": "B",
+    "rank": 460,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "能量水晶",
+    "icon": "pal_icons/RockBeast_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/RockBeast_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WhiteTiger",
+    "slug": "cryolinx",
+    "name": "冰棘兽",
+    "index": 132,
+    "indexSuffix": "",
+    "rank": 1040,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "猎龙者",
+    "icon": "pal_icons/WhiteTiger.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WhiteTiger.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WhiteTiger_Ground",
+    "slug": "cryolinx-terra",
+    "name": "金棘兽",
+    "index": 132,
+    "indexSuffix": "B",
+    "rank": 470,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "爆碎铁腕",
+    "icon": "pal_icons/WhiteTiger_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WhiteTiger_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SmallYeti",
+    "slug": "snugloo",
+    "name": "雪墩墩",
+    "index": 133,
+    "indexSuffix": "",
+    "rank": 2390,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "不见之眼",
+    "icon": "pal_icons/SmallYeti.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SmallYeti.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Yeti",
+    "slug": "wumpo",
+    "name": "白绒雪怪",
+    "index": 134,
+    "indexSuffix": "",
+    "rank": 830,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "雪山巨人",
+    "icon": "pal_icons/Yeti.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Yeti.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Yeti_Grass",
+    "slug": "wumpo-botan",
+    "name": "绿苔绒怪",
+    "index": 134,
+    "indexSuffix": "B",
+    "rank": 610,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "南方巨人",
+    "icon": "pal_icons/Yeti_Grass.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Yeti_Grass.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CandleGhost",
+    "slug": "sootseer",
+    "name": "恐炬灵",
+    "index": 135,
+    "indexSuffix": "",
+    "rank": 980,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "古墓烛影",
+    "icon": "pal_icons/CandleGhost.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CandleGhost.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "VenusFlytrap",
+    "slug": "carnibora",
+    "name": "颚莉丝",
+    "index": 136,
+    "indexSuffix": "",
+    "rank": 1700,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "巨舌缠绕",
+    "icon": "pal_icons/VenusFlytrap.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/VenusFlytrap.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KingBahamut",
+    "slug": "blazamut",
+    "name": "焰煌",
+    "index": 137,
+    "indexSuffix": "",
+    "rank": 410,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "熔岩凯撒",
+    "icon": "pal_icons/KingBahamut.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KingBahamut.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KingBahamut_Dragon",
+    "slug": "blazamut-ryu",
+    "name": "殁殃",
+    "index": 137,
+    "indexSuffix": "B",
+    "rank": 100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "巨龙凯撒",
+    "icon": "pal_icons/KingBahamut_Dragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KingBahamut_Dragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassGolem",
+    "slug": "dualith",
+    "name": "双心岩傀",
+    "index": 138,
+    "indexSuffix": "",
+    "rank": 510,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      },
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "自然光炮",
+    "icon": "pal_icons/GrassGolem.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassGolem.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassGolem_Dark",
+    "slug": "dualith-noct",
+    "name": "咒心岩傀",
+    "index": 138,
+    "indexSuffix": "B",
+    "rank": 250,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "枯萎光炮",
+    "icon": "pal_icons/GrassGolem_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassGolem_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Anubis",
+    "slug": "anubis",
+    "name": "阿努比斯",
+    "index": 139,
+    "indexSuffix": "",
+    "rank": 480,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "沙漠守护神",
+    "icon": "pal_icons/Anubis.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Anubis.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Sekhmet",
+    "slug": "sekhmet",
+    "name": "塞赫麦特",
+    "index": 140,
+    "indexSuffix": "",
+    "rank": 870,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "沙漠女帝",
+    "icon": "pal_icons/Sekhmet.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Sekhmet.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ScorpionMan",
+    "slug": "prixter",
+    "name": "蛊刺妖",
+    "index": 141,
+    "indexSuffix": "",
+    "rank": 1510,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "无毒毒蝎",
+    "icon": "pal_icons/ScorpionMan.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ScorpionMan.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ScorpionMan_Electric",
+    "slug": "prixter-lux",
+    "name": "电针妖",
+    "index": 141,
+    "indexSuffix": "B",
+    "rank": 850,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "低频脉冲蝎",
+    "icon": "pal_icons/ScorpionMan_Electric.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ScorpionMan_Electric.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CubeTurtle",
+    "slug": "tetroise",
+    "name": "重岩龟",
+    "index": 142,
+    "indexSuffix": "",
+    "rank": 790,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "负石古代龟",
+    "icon": "pal_icons/CubeTurtle.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CubeTurtle.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "CubeTurtle_Neutral",
+    "slug": "tetroise-primo",
+    "name": "净岩龟",
+    "index": 142,
+    "indexSuffix": "B",
+    "rank": 200,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "逐石古代龟",
+    "icon": "pal_icons/CubeTurtle_Neutral.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/CubeTurtle_Neutral.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BadCatgirl",
+    "slug": "nyafia",
+    "name": "妮瞅莎",
+    "index": 143,
+    "indexSuffix": "",
+    "rank": 1250,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "猫咪霰阵",
+    "icon": "pal_icons/BadCatgirl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BadCatgirl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MimicDog",
+    "slug": "mimog",
+    "name": "旺财",
+    "index": 144,
+    "indexSuffix": "",
+    "rank": 1740,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "撬锁",
+    "icon": "pal_icons/MimicDog.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MimicDog.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DarkAlien",
+    "slug": "xenovader",
+    "name": "杰诺贝达",
+    "index": 145,
+    "indexSuffix": "",
+    "rank": 1820,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "未知侵略者",
+    "icon": "pal_icons/DarkAlien.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DarkAlien.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WhiteAlienDragon",
+    "slug": "xenogard",
+    "name": "杰诺路达",
+    "index": 146,
+    "indexSuffix": "",
+    "rank": 990,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "未知入侵者",
+    "icon": "pal_icons/WhiteAlienDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WhiteAlienDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlueberryFairy",
+    "slug": "prunelia",
+    "name": "梅莉姆",
+    "index": 147,
+    "indexSuffix": "",
+    "rank": 1390,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "丰收祈愿",
+    "icon": "pal_icons/BlueberryFairy.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlueberryFairy.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GhostRabbit",
+    "slug": "nitemary",
+    "name": "魅爱莉",
+    "index": 148,
+    "indexSuffix": "",
+    "rank": 1230,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "夺魂幽灵兔",
+    "icon": "pal_icons/GhostRabbit.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GhostRabbit.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GhostRabbit_Grass",
+    "slug": "nitemary-botan",
+    "name": "碧艾莉",
+    "index": 148,
+    "indexSuffix": "B",
+    "rank": 1320,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "缚魂幽灵兔",
+    "icon": "pal_icons/GhostRabbit_Grass.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GhostRabbit_Grass.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlackPuppy",
+    "slug": "smokie",
+    "name": "墨丸",
+    "index": 149,
+    "indexSuffix": "",
+    "rank": 1760,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "忠犬墨丸",
+    "icon": "pal_icons/BlackPuppy.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlackPuppy.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlackPuppy_Ice",
+    "slug": "smokie-cryst",
+    "name": "冬丸",
+    "index": 149,
+    "indexSuffix": "B",
+    "rank": 1610,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "忠犬冬丸",
+    "icon": "pal_icons/BlackPuppy_Ice.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlackPuppy_Ice.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MysteryMask",
+    "slug": "omascul",
+    "name": "面惧",
+    "index": 150,
+    "indexSuffix": "",
+    "rank": 1140,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "假面舞会",
+    "icon": "pal_icons/MysteryMask.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MysteryMask.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceNarwhal",
+    "slug": "whalaska",
+    "name": "凉晶鲸",
+    "index": 151,
+    "indexSuffix": "",
+    "rank": 710,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "凉冰冰鲸鱼号",
+    "icon": "pal_icons/IceNarwhal.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceNarwhal.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceNarwhal_Fire",
+    "slug": "whalaska-ignis",
+    "name": "桃晶鲸",
+    "index": 151,
+    "indexSuffix": "B",
+    "rank": 370,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "暖烘烘鲸鱼号",
+    "icon": "pal_icons/IceNarwhal_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceNarwhal_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrassRabbitMan",
+    "slug": "verdash",
+    "name": "踏春兔",
+    "index": 152,
+    "indexSuffix": "",
+    "rank": 1160,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "草原特技之星",
+    "icon": "pal_icons/GrassRabbitMan.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrassRabbitMan.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GrimGirl",
+    "slug": "splatterina",
+    "name": "幽恋娜",
+    "index": 153,
+    "indexSuffix": "",
+    "rank": 780,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "狂爱之刃",
+    "icon": "pal_icons/GrimGirl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GrimGirl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GoldenHorse",
+    "slug": "gildane",
+    "name": "金驰兽",
+    "index": 154,
+    "indexSuffix": "",
+    "rank": 730,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "沙尘加护",
+    "icon": "pal_icons/GoldenHorse.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GoldenHorse.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SifuDog",
+    "slug": "dogen",
+    "name": "汪宗师",
+    "index": 155,
+    "indexSuffix": "",
+    "rank": 1460,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "归去来兮",
+    "icon": "pal_icons/SifuDog.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SifuDog.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SumoDog",
+    "slug": "bulldosu",
+    "name": "力士獒",
+    "index": 156,
+    "indexSuffix": "",
+    "rank": 1190,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "横纲风范",
+    "icon": "pal_icons/SumoDog.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SumoDog.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WhiteDeer",
+    "slug": "celesdir",
+    "name": "净世鹿",
+    "index": 157,
+    "indexSuffix": "",
+    "rank": 570,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "净化的祝福",
+    "icon": "pal_icons/WhiteDeer.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WhiteDeer.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WhiteDeer_Dark",
+    "slug": "celesdir-noct",
+    "name": "织夜鹿",
+    "index": 157,
+    "indexSuffix": "B",
+    "rank": 270,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "混沌的祝福",
+    "icon": "pal_icons/WhiteDeer_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WhiteDeer_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlackMetalDragon",
+    "slug": "astegon",
+    "name": "魔渊龙",
+    "index": 158,
+    "indexSuffix": "",
+    "rank": 490,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黑铠之龙",
+    "icon": "pal_icons/BlackMetalDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlackMetalDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WingGolem",
+    "slug": "knocklem",
+    "name": "泰锋",
+    "index": 159,
+    "indexSuffix": "",
+    "rank": 260,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "钢铁卫士模式",
+    "icon": "pal_icons/WingGolem.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WingGolem.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WingGolem_Fire",
+    "slug": "knocklem-ignis",
+    "name": "丹烽",
+    "index": 159,
+    "indexSuffix": "B",
+    "rank": 210,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "铁血卫士模式",
+    "icon": "pal_icons/WingGolem_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WingGolem_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WhiteShieldDragon",
+    "slug": "silvegis",
+    "name": "艾基鲁迦",
+    "index": 160,
+    "indexSuffix": "",
+    "rank": 560,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "埃癸斯之盾",
+    "icon": "pal_icons/WhiteShieldDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WhiteShieldDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlueThunderHorse",
+    "slug": "azurmane",
+    "name": "驭雷马",
+    "index": 161,
+    "indexSuffix": "",
+    "rank": 420,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "电离冲刺",
+    "icon": "pal_icons/BlueThunderHorse.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlueThunderHorse.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LongCat",
+    "slug": "valentail",
+    "name": "喵璐璐",
+    "index": 162,
+    "indexSuffix": "",
+    "rank": 1900,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "伸展喵咪",
+    "icon": "pal_icons/LongCat.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LongCat.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ElecSnail",
+    "slug": "snock",
+    "name": "电涡蜗",
+    "index": 163,
+    "indexSuffix": "",
+    "rank": 1780,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "电电电池",
+    "icon": "pal_icons/ElecSnail.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ElecSnail.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ElecSnail_Ground",
+    "slug": "snock-lux",
+    "name": "金涡蜗",
+    "index": 163,
+    "indexSuffix": "B",
+    "rank": 1500,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "咚咚甲壳",
+    "icon": "pal_icons/ElecSnail_Ground.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ElecSnail_Ground.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DandelionGirl",
+    "slug": "souffline",
+    "name": "蒲蒲飞芽",
+    "index": 164,
+    "indexSuffix": "",
+    "rank": 2000,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "绒毛妖精",
+    "icon": "pal_icons/DandelionGirl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DandelionGirl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BrownRabbit",
+    "slug": "lapiron",
+    "name": "詹兔曼",
+    "index": 165,
+    "indexSuffix": "",
+    "rank": 1680,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "大地是好朋友",
+    "icon": "pal_icons/BrownRabbit.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BrownRabbit.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "HoodGhost",
+    "slug": "hoodle",
+    "name": "兜兜灵",
+    "index": 166,
+    "indexSuffix": "",
+    "rank": 1770,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "潜于虚无之物",
+    "icon": "pal_icons/HoodGhost.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/HoodGhost.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ElecLizard",
+    "slug": "slowatt",
+    "name": "电懒懒",
+    "index": 167,
+    "indexSuffix": "",
+    "rank": 1750,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "懒懒电键",
+    "icon": "pal_icons/ElecLizard.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ElecLizard.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "OniGhostGirl",
+    "slug": "bakemi",
+    "name": "吓丝妮",
+    "index": 168,
+    "indexSuffix": "",
+    "rank": 1540,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "播撒欢笑的亡者",
+    "icon": "pal_icons/OniGhostGirl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/OniGhostGirl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KingSunfish",
+    "slug": "solmora",
+    "name": "曼波王",
+    "index": 169,
+    "indexSuffix": "",
+    "rank": 1370,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "领袖翻车鱼",
+    "icon": "pal_icons/KingSunfish.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KingSunfish.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KingSunfish_Thunder",
+    "slug": "solmora-lux",
+    "name": "曼波皇",
+    "index": 169,
+    "indexSuffix": "B",
+    "rank": 1000,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      },
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "电光翻车鱼",
+    "icon": "pal_icons/KingSunfish_Thunder.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KingSunfish_Thunder.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SleeveRabbit",
+    "slug": "lapure",
+    "name": "兔绣袖",
+    "index": 170,
+    "indexSuffix": "",
+    "rank": 810,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "长袖啦啦队员",
+    "icon": "pal_icons/SleeveRabbit.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SleeveRabbit.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GhostDragon",
+    "slug": "eidrolon",
+    "name": "灵曦龙",
+    "index": 171,
+    "indexSuffix": "",
+    "rank": 300,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "自由翼龙",
+    "icon": "pal_icons/GhostDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GhostDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "GhostDragon_Fire",
+    "slug": "eidrolon-ignis",
+    "name": "狱熙龙",
+    "index": 171,
+    "indexSuffix": "B",
+    "rank": 140,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "愤怒翼龙",
+    "icon": "pal_icons/GhostDragon_Fire.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/GhostDragon_Fire.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ThunderFluffyBird",
+    "slug": "dynamoff",
+    "name": "雷云鹫",
+    "index": 172,
+    "indexSuffix": "",
+    "rank": 1400,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "电动按摩式抱窝",
+    "icon": "pal_icons/ThunderFluffyBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ThunderFluffyBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "RedFlowerBird",
+    "slug": "tropicaw",
+    "name": "大红呱",
+    "index": 173,
+    "indexSuffix": "",
+    "rank": 1350,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "花之舞",
+    "icon": "pal_icons/RedFlowerBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/RedFlowerBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FoxExorcist",
+    "slug": "flaracle",
+    "name": "昭炎狐",
+    "index": 174,
+    "indexSuffix": "",
+    "rank": 390,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "未来之炎",
+    "icon": "pal_icons/FoxExorcist.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FoxExorcist.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LotusDragon",
+    "slug": "ophydia",
+    "name": "沁莲龙",
+    "index": 175,
+    "indexSuffix": "",
+    "rank": 230,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "清灿迷雾",
+    "icon": "pal_icons/LotusDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LotusDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ClownRabbit",
+    "slug": "dupin",
+    "name": "拉比耶尔",
+    "index": 176,
+    "indexSuffix": "",
+    "rank": 520,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "拉比拉比魔术秀",
+    "icon": "pal_icons/ClownRabbit.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ClownRabbit.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ThiefBird",
+    "slug": "roujay",
+    "name": "盗影鸦",
+    "index": 177,
+    "indexSuffix": "",
+    "rank": 530,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "潜影怪鸟",
+    "icon": "pal_icons/ThiefBird.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ThiefBird.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SnakeGirl",
+    "slug": "venusa",
+    "name": "梅杜娜",
+    "index": 178,
+    "indexSuffix": "",
+    "rank": 970,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "灵蛇之智",
+    "icon": "pal_icons/SnakeGirl.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SnakeGirl.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MushroomLady",
+    "slug": "mycora",
+    "name": "红菇娘",
+    "index": 179,
+    "indexSuffix": "",
+    "rank": 760,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "魅惑孢子",
+    "icon": "pal_icons/MushroomLady.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MushroomLady.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LanternButler",
+    "slug": "loomen",
+    "name": "妖焰灯",
+    "index": 180,
+    "indexSuffix": "",
+    "rank": 890,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "提灯附魔",
+    "icon": "pal_icons/LanternButler.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LanternButler.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MoonChild",
+    "slug": "wistella",
+    "name": "缀夜星",
+    "index": 181,
+    "indexSuffix": "",
+    "rank": 1180,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "隐藏的暗能量",
+    "icon": "pal_icons/MoonChild.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MoonChild.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MonochromeQueen",
+    "slug": "solenne",
+    "name": "墨罗娜",
+    "index": 182,
+    "indexSuffix": "",
+    "rank": 280,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "孤染公主",
+    "icon": "pal_icons/MonochromeQueen.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MonochromeQueen.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KabukiMan",
+    "slug": "renjishi",
+    "name": "燎火舞伶",
+    "index": 183,
+    "indexSuffix": "",
+    "rank": 290,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "大显身手",
+    "icon": "pal_icons/KabukiMan.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KabukiMan.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DomeArmorDragon",
+    "slug": "aegidron",
+    "name": "磐甲龙",
+    "index": 184,
+    "indexSuffix": "",
+    "rank": 30,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Earth",
+        "name": "地属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "不破要塞龙",
+    "icon": "pal_icons/DomeArmorDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DomeArmorDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ElecPanda",
+    "slug": "grizzbolt",
+    "name": "暴电熊",
+    "index": 185,
+    "indexSuffix": "",
+    "rank": 1020,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黄色重型战车",
+    "icon": "pal_icons/ElecPanda.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ElecPanda.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LilyQueen",
+    "slug": "lyleen",
+    "name": "百合女王",
+    "index": 186,
+    "indexSuffix": "",
+    "rank": 240,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "丰饶女神",
+    "icon": "pal_icons/LilyQueen.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LilyQueen.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LilyQueen_Dark",
+    "slug": "lyleen-noct",
+    "name": "黑月女王 ",
+    "index": 186,
+    "indexSuffix": "B",
+    "rank": 220,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "幽光女神",
+    "icon": "pal_icons/LilyQueen_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LilyQueen_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "ThunderDragonMan",
+    "slug": "orserk",
+    "name": "波鲁杰克斯",
+    "index": 187,
+    "indexSuffix": "",
+    "rank": 120,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Electricity",
+        "name": "雷属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "凶猛的迅雷龙",
+    "icon": "pal_icons/ThunderDragonMan.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/ThunderDragonMan.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Horus",
+    "slug": "faleris",
+    "name": "荷鲁斯",
+    "index": 188,
+    "indexSuffix": "",
+    "rank": 500,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "火属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "灼热捕食者",
+    "icon": "pal_icons/Horus.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Horus.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Horus_Water",
+    "slug": "faleris-aqua",
+    "name": "伊西斯",
+    "index": 188,
+    "indexSuffix": "B",
+    "rank": 450,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "潮汐捕食者",
+    "icon": "pal_icons/Horus_Water.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Horus_Water.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlackGriffon",
+    "slug": "shadowbeak",
+    "name": "异构格里芬",
+    "index": 189,
+    "indexSuffix": "",
+    "rank": 550,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "基因改造",
+    "icon": "pal_icons/BlackGriffon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlackGriffon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "MoonQueen",
+    "slug": "selyne",
+    "name": "辉月伊",
+    "index": 190,
+    "indexSuffix": "",
+    "rank": 360,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "晦暗辉光",
+    "icon": "pal_icons/MoonQueen.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/MoonQueen.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SnowTigerBeastman",
+    "slug": "bastigor",
+    "name": "霜牙王",
+    "index": 191,
+    "indexSuffix": "",
+    "rank": 50,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "暴雪冲击",
+    "icon": "pal_icons/SnowTigerBeastman.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SnowTigerBeastman.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlueSkyDragon",
+    "slug": "shaolong",
+    "name": "霄龙",
+    "index": 192,
+    "indexSuffix": "",
+    "rank": 40,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      },
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "苍天统治者",
+    "icon": "pal_icons/BlueSkyDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlueSkyDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "Mothman",
+    "slug": "silvance",
+    "name": "暮尘蛾",
+    "index": 193,
+    "indexSuffix": "",
+    "rank": 80,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "孢子守卫",
+    "icon": "pal_icons/Mothman.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/Mothman.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "FlowerPrince",
+    "slug": "dandilord",
+    "name": "夜蔓爵",
+    "index": 194,
+    "indexSuffix": "",
+    "rank": 60,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "草属性"
+      },
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "迷雾守卫",
+    "icon": "pal_icons/FlowerPrince.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/FlowerPrince.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NightLady",
+    "slug": "bellanoir",
+    "name": "贝菈诺娃",
+    "index": 195,
+    "indexSuffix": "",
+    "rank": 620,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "梦魇之瞳",
+    "icon": "pal_icons/NightLady.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NightLady.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "NightLady_Dark",
+    "slug": "bellanoir-libero",
+    "name": "贝菈露洁",
+    "index": 195,
+    "indexSuffix": "B",
+    "rank": 130,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "噩梦凝视",
+    "icon": "pal_icons/NightLady_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/NightLady_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "DarkMechaDragon",
+    "slug": "xenolord",
+    "name": "杰诺多兰",
+    "index": 196,
+    "indexSuffix": "",
+    "rank": 400,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      },
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "陨星之翼",
+    "icon": "pal_icons/DarkMechaDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/DarkMechaDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "LegendDeer",
+    "slug": "hartalis",
+    "name": "默世鹿",
+    "index": 197,
+    "indexSuffix": "",
+    "rank": 90,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "庇佑圣盾",
+    "icon": "pal_icons/LegendDeer.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/LegendDeer.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "SaintCentaur",
+    "slug": "paladius",
+    "name": "圣光骑士",
+    "index": 198,
+    "indexSuffix": "",
+    "rank": 180,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "无属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "天翔圣骑士",
+    "icon": "pal_icons/SaintCentaur.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/SaintCentaur.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "BlackCentaur",
+    "slug": "necromus",
+    "name": "混沌骑士",
+    "index": 199,
+    "indexSuffix": "",
+    "rank": 190,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "深渊黑骑士",
+    "icon": "pal_icons/BlackCentaur.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/BlackCentaur.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceHorse",
+    "slug": "frostallion",
+    "name": "唤冬兽",
+    "index": 200,
+    "indexSuffix": "",
+    "rank": 150,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Ice",
+        "name": "冰属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "冰天马",
+    "icon": "pal_icons/IceHorse.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceHorse.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "IceHorse_Dark",
+    "slug": "frostallion-noct",
+    "name": "唤夜兽",
+    "index": 200,
+    "indexSuffix": "B",
+    "rank": 110,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "暗属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "黑天马",
+    "icon": "pal_icons/IceHorse_Dark.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/IceHorse_Dark.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "PoseidonOrca",
+    "slug": "neptilius",
+    "name": "海皇鲸",
+    "index": 201,
+    "indexSuffix": "",
+    "rank": 160,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "大海的霸主",
+    "icon": "pal_icons/PoseidonOrca.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/PoseidonOrca.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "JetDragon",
+    "slug": "jetragon",
+    "name": "空涡龙",
+    "index": 202,
+    "indexSuffix": "",
+    "rank": 70,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dragon",
+        "name": "龙属性"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "地毯式轰炸",
+    "icon": "pal_icons/JetDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/JetDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "KingWhale",
+    "slug": "panthalus",
+    "name": "奥沧鲸",
+    "index": 203,
+    "indexSuffix": "",
+    "rank": 20,
+    "isBreed": true,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "水属性"
+      }
+    ],
+    "isNewIn10": true,
+    "partnerSkillName": "残响守护者",
+    "icon": "pal_icons/KingWhale.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/KingWhale.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "WorldTreeDragon",
+    "slug": "astralym",
+    "name": "枯星龙",
+    "index": 204,
+    "indexSuffix": "",
+    "rank": 10,
+    "isBreed": true,
+    "elements": [],
+    "isNewIn10": true,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/WorldTreeDragon.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/WorldTreeDragon.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster001",
+    "slug": "green-slime",
+    "name": "绿史莱姆",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Leaf",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster001.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster001.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster001_Blue",
+    "slug": "blue-slime",
+    "name": "蓝史莱姆",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Water",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster001_Blue.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster001_Blue.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster001_Red",
+    "slug": "red-slime",
+    "name": "红史莱姆",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Fire",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster001_Red.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster001_Red.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster001_Purple",
+    "slug": "purple-slime",
+    "name": "紫史莱姆",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster001_Purple.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster001_Purple.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster001_Pink",
+    "slug": "illuminant-slime",
+    "name": "夜明史莱姆",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster001_Pink.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster001_Pink.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster001_Rainbow",
+    "slug": "rainbow-slime",
+    "name": "彩虹史莱姆",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster001_Rainbow.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster001_Rainbow.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster002",
+    "slug": "enchanted-sword",
+    "name": "附魔剑",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster002.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster002.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster003",
+    "slug": "cave-bat",
+    "name": "洞穴蝙蝠",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster003.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster003.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaMonster003_Purple",
+    "slug": "illuminant-bat",
+    "name": "夜明蝙蝠",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Normal",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaMonster003_Purple.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaMonster003_Purple.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaBoss001",
+    "slug": "eye-of-cthulhu",
+    "name": "克苏鲁之眼",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaBoss001.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaBoss001.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  },
+  {
+    "id": "YakushimaBoss001_Small",
+    "slug": "demon-eye",
+    "name": "恶魔眼",
+    "index": -1,
+    "indexSuffix": "",
+    "rank": 3100,
+    "isBreed": false,
+    "elements": [
+      {
+        "id": "Dark",
+        "name": "$undefined"
+      }
+    ],
+    "isNewIn10": false,
+    "partnerSkillName": "$undefined",
+    "icon": "pal_icons/YakushimaBoss001_Small.webp",
+    "iconUrl": "https://s-stats-platform-cdn.op.gg/palworld/1.0.0.100427/images/icons/YakushimaBoss001_Small.webp?image=q_auto:good,f_webp,w_280&v=1784201808"
+  }
+]
