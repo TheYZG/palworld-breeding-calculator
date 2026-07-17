@@ -2,13 +2,18 @@
 
 一个实时同步的配种计算器：勾选你拥有的帕鲁，立刻看到能繁育出的全部后代及其所有亲代组合。
 
-数据来源：[op.gg/zh-cn/palworld/breeding](https://op.gg/zh-cn/palworld/breeding)（共 299 只帕鲁 / 89,401 种组合）。
+数据来源：
+- 帕鲁基础信息与配种表：[op.gg/zh-cn/palworld/breeding](https://op.gg/zh-cn/palworld/breeding)（共 299 只帕鲁 / 89,401 种组合）
+- 工作技能等级：[palworld.gg/zh-Hans/pals](https://palworld.gg/zh-Hans/pals)（浇水/手工/采矿等 12 种工作适用性）
 
 ## 功能
 
 - 勾选拥有的帕鲁，右侧实时显示所有可繁育后代
+- 后代列表自动排除你已拥有的帕鲁，只显示新可获得的
+- 点击后代/亲代图标弹出详情卡片，展示工作技能等级（浇水/手工/采矿等）
 - 后代卡片可展开，查看每一对该后代的亲代组合
 - 帕鲁搜索 + 9 种元素筛选 + 可繁育/不可繁育筛选
+- 已选帕鲁自动保存到浏览器，刷新不丢失
 - 明暗主题切换（自动跟随系统）
 - 全部计算在浏览器本地完成，无后端，无网络请求
 - 数据已内置打包，离线可用
@@ -52,12 +57,15 @@ npm run preview
 
 ```
 .
-├── scraper.py                # 数据爬虫：从 op.gg 抓取 299 只帕鲁 + 89401 种配种组合
+├── scraper.py                # 数据爬虫：从 op.gg 抓取 299 只帕鲁 + 89401 种配种组合 + 图标
+├── stats_scraper.py          # 工作技能爬虫：从 palworld.gg 抓取每只帕鲁的工作适用性等级
 ├── verify_output.py          # 数据校验脚本
 ├── public/data/
 │   ├── pals.json             # 帕鲁基础信息（299 只）
 │   ├── breeding_by_father.json  # 紧凑配种表 {父: [[母, 子代], ...]}
 │   ├── breeding_combos.json  # 完整配种组合（89401 条）
+│   ├── pal_stats.json        # 工作技能等级 {slug: {workId: level}}
+│   ├── work_types.json       # 工作类型列表（12 种）
 │   └── pal_icons/            # 帕鲁图标（webp）
 └── src/
     ├── lib/breeding.ts       # 配种核心算法：根据我的帕鲁集合计算可繁育后代
@@ -85,8 +93,9 @@ npm run preview
 如需重新爬取最新数据（游戏更新后）：
 
 ```bash
-python scraper.py            # 重新爬取全部数据（含图标）
-python verify_output.py      # 校验数据完整性
+python scraper.py            # 重新爬取配种数据（含图标）
+python stats_scraper.py      # 重新爬取工作技能等级（支持断点续传）
+python verify_output.py      # 校验配种数据完整性
 ```
 
 依赖：`requests`。

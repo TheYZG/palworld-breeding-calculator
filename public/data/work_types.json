@@ -1,0 +1,62 @@
+[
+  {
+    "id": "00",
+    "name": "引火",
+    "icon": "/images/icons/T_icon_palwork_00.png"
+  },
+  {
+    "id": "01",
+    "name": "浇水",
+    "icon": "/images/icons/T_icon_palwork_01.png"
+  },
+  {
+    "id": "02",
+    "name": "种植",
+    "icon": "/images/icons/T_icon_palwork_02.png"
+  },
+  {
+    "id": "03",
+    "name": "发电",
+    "icon": "/images/icons/T_icon_palwork_03.png"
+  },
+  {
+    "id": "04",
+    "name": "手工",
+    "icon": "/images/icons/T_icon_palwork_04.png"
+  },
+  {
+    "id": "05",
+    "name": "采集",
+    "icon": "/images/icons/T_icon_palwork_05.png"
+  },
+  {
+    "id": "06",
+    "name": "除林",
+    "icon": "/images/icons/T_icon_palwork_06.png"
+  },
+  {
+    "id": "07",
+    "name": "挖矿",
+    "icon": "/images/icons/T_icon_palwork_07.png"
+  },
+  {
+    "id": "08",
+    "name": "制药",
+    "icon": "/images/icons/T_icon_palwork_08.png"
+  },
+  {
+    "id": "10",
+    "name": "冷却",
+    "icon": "/images/icons/T_icon_palwork_10.png"
+  },
+  {
+    "id": "11",
+    "name": "运输",
+    "icon": "/images/icons/T_icon_palwork_11.png"
+  },
+  {
+    "id": "12",
+    "name": "耕作",
+    "icon": "/images/icons/T_icon_palwork_12.png"
+  }
+]

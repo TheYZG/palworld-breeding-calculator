@@ -1,4 +1,4 @@
-// 配种计算主页：组装顶部栏、选择器、我的帕鲁条带、结果区。
+// 配种计算主页：组装顶部栏、选择器、我的帕鲁条带、结果区、详情弹窗。
 
 import { useMemo } from "react";
 import { usePalsData } from "@/hooks/usePalsData";
@@ -8,9 +8,11 @@ import TopBar from "@/components/TopBar";
 import PalPicker from "@/components/PalPicker";
 import MyPalsStrip from "@/components/MyPalsStrip";
 import ResultsGrid from "@/components/ResultsGrid";
+import PalDetailModal from "@/components/PalDetailModal";
 
 export default function Home() {
-  const { pals, bySlug, breedingByFather, loading, error } = usePalsData();
+  const { pals, bySlug, breedingByFather, palStats, workTypes, loading, error } =
+    usePalsData();
   const myPals = usePalStore((s) => s.myPals);
 
   const result = useMemo(
@@ -51,6 +53,11 @@ export default function Home() {
           </div>
         </main>
       </div>
+      <PalDetailModal
+        bySlug={bySlug}
+        palStats={palStats}
+        workTypes={workTypes}
+      />
     </div>
   );
 }

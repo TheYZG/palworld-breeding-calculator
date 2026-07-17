@@ -1,4 +1,4 @@
-// 后代卡片：头部展示后代信息与亲代对数量，点击展开全部亲代组合。
+// 后代卡片：头部展示后代信息与亲代对数量，点击图标弹详情，点击其他区域展开全部亲代组合。
 
 import { ChevronDown } from "lucide-react";
 import type { Pal, ParentPair } from "@/lib/types";
@@ -16,16 +16,36 @@ interface Props {
 export default function ChildCard({ child, pairs, bySlug }: Props) {
   const expandedChild = usePalStore((s) => s.expandedChild);
   const toggleExpand = usePalStore((s) => s.toggleExpand);
+  const openDetail = usePalStore((s) => s.openDetail);
   const expanded = expandedChild === child.slug;
 
   return (
     <div className="overflow-hidden rounded-lg border border-border bg-surface transition hover:border-accent/40">
-      <button
-        type="button"
+      <div
+        role="button"
+        tabIndex={0}
         onClick={() => toggleExpand(child.slug)}
-        className="flex w-full items-center gap-3 p-3 text-left"
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggleExpand(child.slug);
+          }
+        }}
+        className="flex w-full cursor-pointer items-center gap-3 p-3 text-left"
       >
-        <PalIcon pal={child} size={44} />
+        {/* 图标：点击弹详情（阻止冒泡到展开） */}
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            openDetail(child.slug);
+          }}
+          className="shrink-0 rounded-md outline-none transition hover:ring-2 hover:ring-accent/40 focus:ring-2 focus:ring-accent/60"
+          aria-label={`查看 ${child.name} 详情`}
+          title="点击查看详情"
+        >
+          <PalIcon pal={child} size={44} />
+        </button>
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
             <span className="truncate font-medium text-text">{child.name}</span>
@@ -57,7 +77,7 @@ export default function ChildCard({ child, pairs, bySlug }: Props) {
             )}
           />
         </div>
-      </button>
+      </div>
 
       {expanded && (
         <div className="border-t border-border bg-surface-2/40 p-3 animate-fade-in">
@@ -74,9 +94,25 @@ export default function ChildCard({ child, pairs, bySlug }: Props) {
                   key={`${f}-${m}-${i}`}
                   className="flex items-center gap-1.5 rounded bg-surface p-2"
                 >
-                  <PalIcon pal={fp} size={32} showName />
+                  <button
+                    type="button"
+                    onClick={() => openDetail(fp.slug)}
+                    className="shrink-0 rounded outline-none transition hover:ring-2 hover:ring-accent/40 focus:ring-2 focus:ring-accent/60"
+                    title={`查看 ${fp.name} 详情`}
+                    aria-label={`查看 ${fp.name} 详情`}
+                  >
+                    <PalIcon pal={fp} size={32} showName />
+                  </button>
                   <span className="text-sm text-text-muted">+</span>
-                  <PalIcon pal={mp} size={32} showName />
+                  <button
+                    type="button"
+                    onClick={() => openDetail(mp.slug)}
+                    className="shrink-0 rounded outline-none transition hover:ring-2 hover:ring-accent/40 focus:ring-2 focus:ring-accent/60"
+                    title={`查看 ${mp.name} 详情`}
+                    aria-label={`查看 ${mp.name} 详情`}
+                  >
+                    <PalIcon pal={mp} size={32} showName />
+                  </button>
                 </div>
               );
             })}

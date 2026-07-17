@@ -13,6 +13,7 @@ interface PalStore {
   elementFilter: Set<string>;
   breedFilter: BreedFilter;
   expandedChild: string | null;
+  detailPalSlug: string | null;
   togglePal: (slug: string) => void;
   hasPal: (slug: string) => boolean;
   clearMyPals: () => void;
@@ -21,6 +22,8 @@ interface PalStore {
   clearElementFilter: () => void;
   setBreedFilter: (f: BreedFilter) => void;
   toggleExpand: (slug: string) => void;
+  openDetail: (slug: string) => void;
+  closeDetail: () => void;
 }
 
 // localStorage 中持久化的形态：myPals 存成数组（Set 不能直接 JSON 序列化）
@@ -36,6 +39,7 @@ export const usePalStore = create<PalStore>()(
       elementFilter: new Set(),
       breedFilter: "all",
       expandedChild: null,
+      detailPalSlug: null,
       togglePal: (slug) =>
         set((state) => {
           const next = new Set(state.myPals);
@@ -59,6 +63,8 @@ export const usePalStore = create<PalStore>()(
         set((state) => ({
           expandedChild: state.expandedChild === slug ? null : slug,
         })),
+      openDetail: (slug) => set({ detailPalSlug: slug }),
+      closeDetail: () => set({ detailPalSlug: null }),
     }),
     {
       name: "palworld-breeding:my-pals",
