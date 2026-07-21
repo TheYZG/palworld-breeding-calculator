@@ -48,6 +48,8 @@ export default function Home() {
             <ResultsGrid
               result={result}
               bySlug={bySlug}
+              palStats={palStats}
+              workTypes={workTypes}
               hasMyPals={myPals.size > 0}
             />
           </div>

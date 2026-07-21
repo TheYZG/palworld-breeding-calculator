@@ -5,13 +5,15 @@ import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 
 export type BreedFilter = "all" | "breedable" | "non-breedable";
-export type SortBy = "index" | "name" | "pairs";
+// 排序键：编号 / 配对数 / 工作技能等级（work_<id>）
+export type SortBy = "index" | "pairs" | `work_${string}`;
 
 interface PalStore {
   myPals: Set<string>;
   searchQuery: string;
   elementFilter: Set<string>;
   breedFilter: BreedFilter;
+  sortBy: SortBy;
   expandedChild: string | null;
   detailPalSlug: string | null;
   togglePal: (slug: string) => void;
@@ -21,6 +23,7 @@ interface PalStore {
   toggleElement: (id: string) => void;
   clearElementFilter: () => void;
   setBreedFilter: (f: BreedFilter) => void;
+  setSortBy: (s: SortBy) => void;
   toggleExpand: (slug: string) => void;
   openDetail: (slug: string) => void;
   closeDetail: () => void;
@@ -38,6 +41,7 @@ export const usePalStore = create<PalStore>()(
       searchQuery: "",
       elementFilter: new Set(),
       breedFilter: "all",
+      sortBy: "index",
       expandedChild: null,
       detailPalSlug: null,
       togglePal: (slug) =>
@@ -59,6 +63,7 @@ export const usePalStore = create<PalStore>()(
         }),
       clearElementFilter: () => set({ elementFilter: new Set() }),
       setBreedFilter: (f) => set({ breedFilter: f }),
+      setSortBy: (s) => set({ sortBy: s }),
       toggleExpand: (slug) =>
         set((state) => ({
           expandedChild: state.expandedChild === slug ? null : slug,
