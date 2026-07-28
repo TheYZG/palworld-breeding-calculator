@@ -36,3 +36,12 @@ export interface WorkType {
   name: string;
   icon: string;
 }
+
+// pal_details.json: 每只帕鲁的详细属性
+export interface PalDetails {
+  stats: Record<string, number>;
+  partnerSkill: { name: string; desc: string } | null;
+  passiveSkills: { name: string; rank: number; desc: string }[];
+}
+
+export type PalDetailsMap = Record<string, PalDetails>;

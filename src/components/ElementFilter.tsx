@@ -1,12 +1,22 @@
 // 属性多选筛选：彩色圆点标签组。
+// target="picker" 筛选左侧选择器（默认），target="result" 筛选右侧结果区。
 
 import { ELEMENT_LIST } from "@/lib/elements";
 import { usePalStore } from "@/store/usePalStore";
 import { cn } from "@/lib/utils";
 
-export default function ElementFilter() {
-  const elementFilter = usePalStore((s) => s.elementFilter);
-  const toggleElement = usePalStore((s) => s.toggleElement);
+interface Props {
+  target?: "picker" | "result";
+}
+
+export default function ElementFilter({ target = "picker" }: Props) {
+  const elementFilter = usePalStore((s) =>
+    target === "result" ? s.resultElementFilter : s.elementFilter,
+  );
+  const toggleElement =
+    target === "result"
+      ? usePalStore((s) => s.toggleResultElement)
+      : usePalStore((s) => s.toggleElement);
 
   return (
     <div className="flex flex-wrap items-center gap-1.5">

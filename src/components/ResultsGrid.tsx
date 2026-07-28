@@ -1,19 +1,23 @@
-// 结果区：可繁育后代卡片网格 + 统计 + 空状态。已排除"我的帕鲁"中已有的后代。
+// 结果区：可繁育后代卡片网格 + 统计 + 空状态。
+// 已排除"我的帕鲁"中已有的后代。
 // 支持按编号 / 配对数 / 各工作技能等级排序。
+// 支持反向查询搜索（按后代名称/编号筛选）和元素筛选。
 
 import { useMemo } from "react";
-import { Egg } from "lucide-react";
-import type { Pal, ParentPair, PalStats, WorkType } from "@/lib/types";
+import { Egg, Search, X } from "lucide-react";
+import type { Pal, ParentPair, PalStats, WorkType, PalDetailsMap } from "@/lib/types";
 import type { BreedableResult } from "@/lib/breeding";
 import { usePalStore, type SortBy } from "@/store/usePalStore";
 import ChildCard from "./ChildCard";
 import EmptyState from "./EmptyState";
+import ElementFilter from "./ElementFilter";
 
 interface Props {
   result: BreedableResult;
   bySlug: Map<string, Pal>;
   palStats: PalStats;
   workTypes: WorkType[];
+  palDetails: PalDetailsMap;
   hasMyPals: boolean;
 }
 
@@ -27,23 +31,41 @@ export default function ResultsGrid({
   bySlug,
   palStats,
   workTypes,
+  palDetails,
   hasMyPals,
 }: Props) {
   const myPals = usePalStore((s) => s.myPals);
   const sortBy = usePalStore((s) => s.sortBy);
   const setSortBy = usePalStore((s) => s.setSortBy);
+  const resultSearch = usePalStore((s) => s.resultSearch);
+  const setResultSearch = usePalStore((s) => s.setResultSearch);
+  const resultElementFilter = usePalStore((s) => s.resultElementFilter);
 
   const entries = useMemo<Entry[]>(() => {
     const arr: Entry[] = [];
+    const q = resultSearch.trim();
     for (const [slug, pairs] of result) {
       // 排除已拥有的帕鲁：只显示"新可获得的"后代
       if (myPals.has(slug)) continue;
       const pal = bySlug.get(slug);
-      if (pal) arr.push({ pal, pairs });
+      if (!pal) continue;
+      // 反向查询搜索：按名称/编号/slug 筛选
+      if (q) {
+        const numMatch = String(pal.index) === q;
+        const nameMatch = pal.name.includes(q);
+        const slugMatch = pal.slug.includes(q.toLowerCase());
+        if (!numMatch && !nameMatch && !slugMatch) continue;
+      }
+      // 元素筛选
+      if (resultElementFilter.size > 0) {
+        const has = pal.elements.some((e) => resultElementFilter.has(e.id));
+        if (!has) continue;
+      }
+      arr.push({ pal, pairs });
     }
     arr.sort((a, b) => compareEntries(a, b, sortBy, palStats));
     return arr;
-  }, [result, bySlug, myPals, sortBy, palStats]);
+  }, [result, bySlug, myPals, sortBy, palStats, resultSearch, resultElementFilter]);
 
   if (!hasMyPals) {
     return (
@@ -69,13 +91,34 @@ export default function ResultsGrid({
         <h2 className="font-serif text-base font-bold text-text">可繁育后代</h2>
         <div className="flex items-center gap-2">
           <span className="text-sm text-text-muted">{entries.length} 种</span>
-          <SortSelect
-            value={sortBy}
-            onChange={setSortBy}
-            workTypes={workTypes}
-          />
+          <SortSelect value={sortBy} onChange={setSortBy} workTypes={workTypes} />
         </div>
       </div>
+
+      {/* 反向查询搜索 + 元素筛选 */}
+      <div className="mb-3 space-y-2">
+        <div className="relative">
+          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-text-muted" />
+          <input
+            value={resultSearch}
+            onChange={(e) => setResultSearch(e.target.value)}
+            placeholder="搜索目标帕鲁名称或编号"
+            className="w-full rounded border border-border bg-surface py-1.5 pl-9 pr-9 text-sm text-text placeholder:text-text-muted focus:border-accent focus:outline-none"
+          />
+          {resultSearch && (
+            <button
+              type="button"
+              onClick={() => setResultSearch("")}
+              aria-label="清除搜索"
+              className="absolute right-2 top-1/2 flex h-5 w-5 -translate-y-1/2 items-center justify-center rounded text-text-muted hover:bg-surface-2 hover:text-text"
+            >
+              <X className="h-3.5 w-3.5" />
+            </button>
+          )}
+        </div>
+        <ElementFilter target="result" />
+      </div>
+
       <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
         {entries.map(({ pal, pairs }) => (
           <ChildCard
@@ -116,7 +159,6 @@ function compareEntries(
     const al = palStats[a.pal.slug]?.[wid] ?? 0;
     const bl = palStats[b.pal.slug]?.[wid] ?? 0;
     if (al !== bl) return bl - al;
-    // 同等级按编号
     const ai = a.pal.index > 0 ? a.pal.index : 9999;
     const bi = b.pal.index > 0 ? b.pal.index : 9999;
     return ai - bi;

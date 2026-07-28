@@ -16,9 +16,12 @@ interface PalStore {
   sortBy: SortBy;
   expandedChild: string | null;
   detailPalSlug: string | null;
+  resultSearch: string;
+  resultElementFilter: Set<string>;
   togglePal: (slug: string) => void;
   hasPal: (slug: string) => boolean;
   clearMyPals: () => void;
+  importPals: (slugs: string[]) => void;
   setSearchQuery: (q: string) => void;
   toggleElement: (id: string) => void;
   clearElementFilter: () => void;
@@ -27,6 +30,9 @@ interface PalStore {
   toggleExpand: (slug: string) => void;
   openDetail: (slug: string) => void;
   closeDetail: () => void;
+  setResultSearch: (q: string) => void;
+  toggleResultElement: (id: string) => void;
+  clearResultElementFilter: () => void;
 }
 
 // localStorage 中持久化的形态：myPals 存成数组（Set 不能直接 JSON 序列化）
@@ -44,6 +50,8 @@ export const usePalStore = create<PalStore>()(
       sortBy: "index",
       expandedChild: null,
       detailPalSlug: null,
+      resultSearch: "",
+      resultElementFilter: new Set(),
       togglePal: (slug) =>
         set((state) => {
           const next = new Set(state.myPals);
@@ -53,6 +61,7 @@ export const usePalStore = create<PalStore>()(
         }),
       hasPal: (slug) => get().myPals.has(slug),
       clearMyPals: () => set({ myPals: new Set(), expandedChild: null }),
+      importPals: (slugs) => set({ myPals: new Set(slugs), expandedChild: null }),
       setSearchQuery: (q) => set({ searchQuery: q }),
       toggleElement: (id) =>
         set((state) => {
@@ -70,6 +79,15 @@ export const usePalStore = create<PalStore>()(
         })),
       openDetail: (slug) => set({ detailPalSlug: slug }),
       closeDetail: () => set({ detailPalSlug: null }),
+      setResultSearch: (q) => set({ resultSearch: q }),
+      toggleResultElement: (id) =>
+        set((state) => {
+          const next = new Set(state.resultElementFilter);
+          if (next.has(id)) next.delete(id);
+          else next.add(id);
+          return { resultElementFilter: next };
+        }),
+      clearResultElementFilter: () => set({ resultElementFilter: new Set() }),
     }),
     {
       name: "palworld-breeding:my-pals",

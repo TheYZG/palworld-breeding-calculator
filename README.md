@@ -10,8 +10,14 @@
 
 - 勾选拥有的帕鲁，右侧实时显示所有可繁育后代
 - 后代列表自动排除你已拥有的帕鲁，只显示新可获得的
-- 点击后代/亲代图标弹出详情卡片，展示工作技能等级（浇水/手工/采矿等）
+- **反向查询**：搜索目标帕鲁，快速定位可繁育出它的组合
+- **后代筛选**：按元素筛选可繁育后代
+- **配种链查找**：输入目标帕鲁，自动规划 1~3 代繁育路径
+- **存档导出/导入**：导出 JSON 文件备份，或导入恢复
+- **分享链接**：把当前选择编码到 URL，发给别人打开就是相同选择
+- **详情弹窗**：点击任意帕鲁图标查看统计数据 / 工作技能 / 伙伴技能 / 被动技能
 - 后代卡片可展开，查看每一对该后代的亲代组合
+- 按编号 / 配对数 / 12 种工作技能等级排序
 - 帕鲁搜索 + 9 种元素筛选 + 可繁育/不可繁育筛选
 - 已选帕鲁自动保存到浏览器，刷新不丢失
 - 明暗主题切换（自动跟随系统）
@@ -59,6 +65,7 @@ npm run preview
 .
 ├── scraper.py                # 数据爬虫：从 op.gg 抓取 299 只帕鲁 + 89401 种配种组合 + 图标
 ├── stats_scraper.py          # 工作技能爬虫：从 palworld.gg 抓取每只帕鲁的工作适用性等级
+├── details_scraper.py        # 详细属性爬虫：统计数据 / 伙伴技能 / 被动技能
 ├── verify_output.py          # 数据校验脚本
 ├── public/data/
 │   ├── pals.json             # 帕鲁基础信息（299 只）
@@ -66,10 +73,13 @@ npm run preview
 │   ├── breeding_combos.json  # 完整配种组合（89401 条）
 │   ├── pal_stats.json        # 工作技能等级 {slug: {workId: level}}
 │   ├── work_types.json       # 工作类型列表（12 种）
+│   ├── pal_details.json      # 详细属性 {slug: {stats, partnerSkill, passiveSkills}}
 │   └── pal_icons/            # 帕鲁图标（webp）
 └── src/
     ├── lib/breeding.ts       # 配种核心算法：根据我的帕鲁集合计算可繁育后代
-    ├── store/usePalStore.ts  # 全局状态：我的帕鲁 / 筛选 / 展开状态
+    ├── lib/breedingPath.ts   # 配种链查找：多代繁育路径搜索
+    ├── lib/share.ts          # 分享链接编解码
+    ├── store/usePalStore.ts  # 全局状态：我的帕鲁 / 筛选 / 排序 / 展开状态
     ├── hooks/usePalsData.ts  # 异步加载并解析数据
     ├── components/           # UI 组件
     └── pages/Home.tsx        # 主页面布局
@@ -95,6 +105,7 @@ npm run preview
 ```bash
 python scraper.py            # 重新爬取配种数据（含图标）
 python stats_scraper.py      # 重新爬取工作技能等级（支持断点续传）
+python details_scraper.py    # 重新爬取统计数据/伙伴技能/被动技能（支持断点续传）
 python verify_output.py      # 校验配种数据完整性
 ```
 

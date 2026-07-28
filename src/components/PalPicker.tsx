@@ -1,7 +1,7 @@
 // 帕鲁选择器：搜索 + 繁殖筛选 + 属性筛选 + 网格。
 
 import { useMemo } from "react";
-import { Search, X } from "lucide-react";
+import { Search, X, Info } from "lucide-react";
 import type { Pal } from "@/lib/types";
 import { usePalStore, type BreedFilter } from "@/store/usePalStore";
 import { cn } from "@/lib/utils";
@@ -26,6 +26,7 @@ export default function PalPicker({ pals }: Props) {
   const elementFilter = usePalStore((s) => s.elementFilter);
   const myPals = usePalStore((s) => s.myPals);
   const togglePal = usePalStore((s) => s.togglePal);
+  const openDetail = usePalStore((s) => s.openDetail);
 
   const filtered = useMemo(() => {
     const q = searchQuery.trim();
@@ -103,20 +104,33 @@ export default function PalPicker({ pals }: Props) {
       <div className="mt-2 min-h-0 flex-1 overflow-y-auto">
         <div className="grid grid-cols-4 gap-1 sm:grid-cols-5">
           {filtered.map((p) => (
-            <button
-              key={p.slug}
-              type="button"
-              onClick={() => togglePal(p.slug)}
-              className="rounded transition hover:bg-surface-2"
-            >
-              <PalIcon
-                pal={p}
-                size={52}
-                showName
-                showIndex
-                selected={myPals.has(p.slug)}
-              />
-            </button>
+            <div key={p.slug} className="group relative">
+              <button
+                type="button"
+                onClick={() => togglePal(p.slug)}
+                className="w-full rounded transition hover:bg-surface-2"
+              >
+                <PalIcon
+                  pal={p}
+                  size={52}
+                  showName
+                  showIndex
+                  selected={myPals.has(p.slug)}
+                />
+              </button>
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  openDetail(p.slug);
+                }}
+                className="absolute right-0 top-0 flex h-4 w-4 items-center justify-center rounded-full bg-surface/80 text-text-muted opacity-0 transition hover:bg-accent hover:text-white group-hover:opacity-100"
+                aria-label={`查看 ${p.name} 详情`}
+                title="查看详情"
+              >
+                <Info className="h-2.5 w-2.5" />
+              </button>
+            </div>
           ))}
         </div>
         {filtered.length === 0 && (
