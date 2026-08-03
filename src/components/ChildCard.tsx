@@ -11,9 +11,10 @@ interface Props {
   child: Pal;
   pairs: ParentPair[];
   bySlug: Map<string, Pal>;
+  generation?: number;
 }
 
-export default function ChildCard({ child, pairs, bySlug }: Props) {
+export default function ChildCard({ child, pairs, bySlug, generation }: Props) {
   const expandedChild = usePalStore((s) => s.expandedChild);
   const toggleExpand = usePalStore((s) => s.toggleExpand);
   const openDetail = usePalStore((s) => s.openDetail);
@@ -67,6 +68,14 @@ export default function ChildCard({ child, pairs, bySlug }: Props) {
           </div>
         </div>
         <div className="flex shrink-0 items-center gap-2">
+          {generation && generation > 1 && (
+            <span
+              className="rounded-full border border-accent/30 bg-accent-soft/50 px-2 py-0.5 text-[10px] font-medium text-accent"
+              title={`需要 ${generation} 步繁育才能获得`}
+            >
+              第{generation}代
+            </span>
+          )}
           <span className="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent">
             {pairs.length} 组
           </span>

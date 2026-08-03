@@ -5,8 +5,8 @@ import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 
 export type BreedFilter = "all" | "breedable" | "non-breedable";
-// 排序键：编号 / 配对数 / 工作技能等级（work_<id>）
-export type SortBy = "index" | "pairs" | `work_${string}`;
+// 排序键：代数 / 编号 / 配对数 / 工作技能等级（work_<id>）
+export type SortBy = "generation" | "index" | "pairs" | `work_${string}`;
 
 interface PalStore {
   myPals: Set<string>;
@@ -47,7 +47,7 @@ export const usePalStore = create<PalStore>()(
       searchQuery: "",
       elementFilter: new Set(),
       breedFilter: "all",
-      sortBy: "index",
+      sortBy: "generation",
       expandedChild: null,
       detailPalSlug: null,
       resultSearch: "",

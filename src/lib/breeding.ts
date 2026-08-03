@@ -46,3 +46,66 @@ export function computeBreedable(
 
   return results;
 }
+
+/**
+ * 配种闭包条目：后代 + 最小繁育代数 + 在当前可达集合内能配出它的所有亲代对。
+ * generation = 1 表示一次配种即可获得；2 表示需要先配出中间代再配；以此类推。
+ */
+export interface ClosureEntry {
+  generation: number;
+  pairs: ParentPair[];
+}
+
+export type ClosureResult = Map<string, ClosureEntry>;
+
+/**
+ * 计算配种闭包：从 myPals 出发，迭代把可繁育出的后代加入集合，再继续繁育，
+ * 直到不再产生新后代（或达到 maxIter）。
+ *
+ * 每个后代的 generation 是所有可行亲代对中 max(gen(父), gen(母)) + 1 的最小值。
+ */
+export function computeBreedableClosure(
+  myPals: Set<string>,
+  breedingByFather: BreedingByFather,
+  maxIter = 30,
+): ClosureResult {
+  // slug -> 最小繁育代数（已拥有 = 0）
+  const reachable = new Map<string, number>();
+  for (const s of myPals) reachable.set(s, 0);
+
+  // 不动点迭代：每轮用当前可达集合计算可繁育后代，更新代数
+  for (let iter = 0; iter < maxIter; iter++) {
+    const currentSet = new Set(reachable.keys());
+    const result = computeBreedable(currentSet, breedingByFather);
+    let changed = false;
+    for (const [child, pairs] of result) {
+      let minG = Infinity;
+      for (const [f, m] of pairs) {
+        const gf = reachable.get(f) ?? Infinity;
+        const gm = reachable.get(m) ?? Infinity;
+        const g = Math.max(gf, gm) + 1;
+        if (g < minG) minG = g;
+      }
+      if (minG === Infinity) continue;
+      const prev = reachable.get(child);
+      if (prev === undefined || minG < prev) {
+        reachable.set(child, minG);
+        changed = true;
+      }
+    }
+    if (!changed) break;
+  }
+
+  // 用最终可达集合重新计算所有亲代对（保证 pairs 完整）
+  const finalSet = new Set(reachable.keys());
+  const allResult = computeBreedable(finalSet, breedingByFather);
+
+  const closure: ClosureResult = new Map();
+  for (const [child, pairs] of allResult) {
+    if (myPals.has(child)) continue; // 排除已拥有
+    const gen = reachable.get(child);
+    if (!gen) continue;
+    closure.set(child, { generation: gen, pairs });
+  }
+  return closure;
+}

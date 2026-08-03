@@ -1,19 +1,18 @@
-// 结果区：可繁育后代卡片网格 + 统计 + 空状态。
-// 已排除"我的帕鲁"中已有的后代。
-// 支持按编号 / 配对数 / 各工作技能等级排序。
+// 结果区：配种闭包后代卡片网格 + 统计 + 空状态。
+// 显示所有可达后代（含多代繁育），默认按繁育代数升序排列，可切换其他排序。
 // 支持反向查询搜索（按后代名称/编号筛选）和元素筛选。
 
 import { useMemo } from "react";
 import { Egg, Search, X } from "lucide-react";
-import type { Pal, ParentPair, PalStats, WorkType, PalDetailsMap } from "@/lib/types";
-import type { BreedableResult } from "@/lib/breeding";
+import type { Pal, PalStats, WorkType, PalDetailsMap, ParentPair } from "@/lib/types";
+import type { ClosureResult } from "@/lib/breeding";
 import { usePalStore, type SortBy } from "@/store/usePalStore";
 import ChildCard from "./ChildCard";
 import EmptyState from "./EmptyState";
 import ElementFilter from "./ElementFilter";
 
 interface Props {
-  result: BreedableResult;
+  result: ClosureResult;
   bySlug: Map<string, Pal>;
   palStats: PalStats;
   workTypes: WorkType[];
@@ -24,6 +23,7 @@ interface Props {
 interface Entry {
   pal: Pal;
   pairs: ParentPair[];
+  generation: number;
 }
 
 export default function ResultsGrid({
@@ -44,9 +44,7 @@ export default function ResultsGrid({
   const entries = useMemo<Entry[]>(() => {
     const arr: Entry[] = [];
     const q = resultSearch.trim();
-    for (const [slug, pairs] of result) {
-      // 排除已拥有的帕鲁：只显示"新可获得的"后代
-      if (myPals.has(slug)) continue;
+    for (const [slug, entry] of result) {
       const pal = bySlug.get(slug);
       if (!pal) continue;
       // 反向查询搜索：按名称/编号/slug 筛选
@@ -61,11 +59,11 @@ export default function ResultsGrid({
         const has = pal.elements.some((e) => resultElementFilter.has(e.id));
         if (!has) continue;
       }
-      arr.push({ pal, pairs });
+      arr.push({ pal, pairs: entry.pairs, generation: entry.generation });
     }
     arr.sort((a, b) => compareEntries(a, b, sortBy, palStats));
     return arr;
-  }, [result, bySlug, myPals, sortBy, palStats, resultSearch, resultElementFilter]);
+  }, [result, bySlug, sortBy, palStats, resultSearch, resultElementFilter]);
 
   if (!hasMyPals) {
     return (
@@ -78,12 +76,15 @@ export default function ResultsGrid({
   if (entries.length === 0) {
     return (
       <EmptyState
-        title="暂无新的可繁育后代"
-        desc="当前可繁育的后代你都已拥有，尝试再添加几只帕鲁以解锁更多组合。"
+        title="暂无可繁育后代"
+        desc="当前组合无法繁育出新后代，尝试再添加几只帕鲁。"
         icon={Egg}
       />
     );
   }
+
+  // 按代数排序时，分组渲染并加分隔标题
+  const grouped = sortBy === "generation" ? groupByGeneration(entries) : null;
 
   return (
     <div className="p-4">
@@ -119,18 +120,65 @@ export default function ResultsGrid({
         <ElementFilter target="result" />
       </div>
 
-      <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
-        {entries.map(({ pal, pairs }) => (
-          <ChildCard
-            key={pal.slug}
-            child={pal}
-            pairs={pairs}
-            bySlug={bySlug}
-          />
-        ))}
-      </div>
+      {grouped ? (
+        <div className="space-y-4">
+          {grouped.map(({ generation, items }) => (
+            <div key={generation}>
+              <div className="mb-2 flex items-center gap-2">
+                <span className="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent">
+                  第 {generation} 代
+                </span>
+                <span className="text-xs text-text-muted">
+                  {generation === 1
+                    ? "一次配种即可获得"
+                    : `需要先配出中间代，共 ${items.length} 种`}
+                </span>
+                <div className="h-px flex-1 bg-border" />
+              </div>
+              <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
+                {items.map(({ pal, pairs, generation: gen }) => (
+                  <ChildCard
+                    key={pal.slug}
+                    child={pal}
+                    pairs={pairs}
+                    bySlug={bySlug}
+                    generation={gen}
+                  />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
+          {entries.map(({ pal, pairs, generation }) => (
+            <ChildCard
+              key={pal.slug}
+              child={pal}
+              pairs={pairs}
+              bySlug={bySlug}
+              generation={generation}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
+}
+
+function groupByGeneration(entries: Entry[]): { generation: number; items: Entry[] }[] {
+  const map = new Map<number, Entry[]>();
+  for (const e of entries) {
+    let arr = map.get(e.generation);
+    if (!arr) {
+      arr = [];
+      map.set(e.generation, arr);
+    }
+    arr.push(e);
+  }
+  return Array.from(map.entries())
+    .sort((a, b) => a[0] - b[0])
+    .map(([generation, items]) => ({ generation, items }));
 }
 
 function compareEntries(
@@ -139,19 +187,23 @@ function compareEntries(
   sortBy: SortBy,
   palStats: PalStats,
 ): number {
+  if (sortBy === "generation") {
+    if (a.generation !== b.generation) return a.generation - b.generation;
+    const ai = a.pal.index > 0 ? a.pal.index : 9999;
+    const bi = b.pal.index > 0 ? b.pal.index : 9999;
+    return ai - bi;
+  }
   if (sortBy === "index") {
     const ai = a.pal.index > 0 ? a.pal.index : 9999;
     const bi = b.pal.index > 0 ? b.pal.index : 9999;
     if (ai !== bi) return ai - bi;
-    return b.pairs.length - a.pairs.length;
+    return a.generation - b.generation;
   }
   if (sortBy === "pairs") {
     if (a.pairs.length !== b.pairs.length) {
       return b.pairs.length - a.pairs.length;
     }
-    const ai = a.pal.index > 0 ? a.pal.index : 9999;
-    const bi = b.pal.index > 0 ? b.pal.index : 9999;
-    return ai - bi;
+    return a.generation - b.generation;
   }
   // work_<id>：按对应工作等级降序，没该工作的排后面
   if (sortBy.startsWith("work_")) {
@@ -159,9 +211,7 @@ function compareEntries(
     const al = palStats[a.pal.slug]?.[wid] ?? 0;
     const bl = palStats[b.pal.slug]?.[wid] ?? 0;
     if (al !== bl) return bl - al;
-    const ai = a.pal.index > 0 ? a.pal.index : 9999;
-    const bi = b.pal.index > 0 ? b.pal.index : 9999;
-    return ai - bi;
+    return a.generation - b.generation;
   }
   return 0;
 }
@@ -181,6 +231,7 @@ function SortSelect({ value, onChange, workTypes }: SortSelectProps) {
         onChange={(e) => onChange(e.target.value as SortBy)}
         className="rounded-md border border-border bg-surface px-2 py-1 text-xs text-text outline-none transition focus:border-accent"
       >
+        <option value="generation">按代数</option>
         <option value="index">按编号</option>
         <option value="pairs">按配对数</option>
         {workTypes.map((wt) => (

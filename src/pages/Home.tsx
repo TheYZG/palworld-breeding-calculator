@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { usePalsData } from "@/hooks/usePalsData";
-import { computeBreedable } from "@/lib/breeding";
+import { computeBreedableClosure } from "@/lib/breeding";
 import { usePalStore } from "@/store/usePalStore";
 import { decodeMyPalsFromHash, clearShareHash, encodeMyPalsToHash } from "@/lib/share";
 import TopBar from "@/components/TopBar";
@@ -58,7 +58,7 @@ export default function Home() {
   }, [myPals, shareLoaded]);
 
   const result = useMemo(
-    () => computeBreedable(myPals, breedingByFather),
+    () => computeBreedableClosure(myPals, breedingByFather),
     [myPals, breedingByFather],
   );
 
