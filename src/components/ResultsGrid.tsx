@@ -4,8 +4,9 @@
 
 import { useMemo } from "react";
 import { Egg, Search, X } from "lucide-react";
-import type { Pal, PalStats, WorkType, PalDetailsMap, ParentPair } from "@/lib/types";
+import type { Pal, PalStats, WorkType, PalDetailsMap, ParentPair, BreedingByFather } from "@/lib/types";
 import type { ClosureResult } from "@/lib/breeding";
+import { buildReverseIndex } from "@/lib/breedingPath";
 import { usePalStore, type SortBy } from "@/store/usePalStore";
 import ChildCard from "./ChildCard";
 import EmptyState from "./EmptyState";
@@ -18,6 +19,7 @@ interface Props {
   workTypes: WorkType[];
   palDetails: PalDetailsMap;
   hasMyPals: boolean;
+  breedingByFather: BreedingByFather;
 }
 
 interface Entry {
@@ -33,8 +35,13 @@ export default function ResultsGrid({
   workTypes,
   palDetails,
   hasMyPals,
+  breedingByFather,
 }: Props) {
   const myPals = usePalStore((s) => s.myPals);
+  const reverseIndex = useMemo(
+    () => buildReverseIndex(breedingByFather),
+    [breedingByFather],
+  );
   const sortBy = usePalStore((s) => s.sortBy);
   const setSortBy = usePalStore((s) => s.setSortBy);
   const resultSearch = usePalStore((s) => s.resultSearch);
@@ -143,6 +150,7 @@ export default function ResultsGrid({
                     pairs={pairs}
                     bySlug={bySlug}
                     generation={gen}
+                    reverseIndex={reverseIndex}
                   />
                 ))}
               </div>
@@ -158,6 +166,7 @@ export default function ResultsGrid({
               pairs={pairs}
               bySlug={bySlug}
               generation={generation}
+              reverseIndex={reverseIndex}
             />
           ))}
         </div>

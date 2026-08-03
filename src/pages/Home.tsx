@@ -102,6 +102,7 @@ export default function Home() {
               workTypes={workTypes}
               palDetails={palDetails}
               hasMyPals={myPals.size > 0}
+              breedingByFather={breedingByFather}
             />
           </div>
         </main>

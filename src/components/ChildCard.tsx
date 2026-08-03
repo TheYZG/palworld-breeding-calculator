@@ -1,24 +1,37 @@
 // 后代卡片：头部展示后代信息与亲代对数量，点击图标弹详情，点击其他区域展开全部亲代组合。
+// 2 代+ 后代展开时额外显示完整繁育路径，说明中间代如何获得。
 
+import { useMemo } from "react";
 import { ChevronDown } from "lucide-react";
 import type { Pal, ParentPair } from "@/lib/types";
+import { findBreedPaths, type ReverseIndex } from "@/lib/breedingPath";
 import { usePalStore } from "@/store/usePalStore";
 import { cn } from "@/lib/utils";
 import PalIcon from "./PalIcon";
 import ElementBadge from "./ElementBadge";
+import PathTree from "./PathTree";
 
 interface Props {
   child: Pal;
   pairs: ParentPair[];
   bySlug: Map<string, Pal>;
   generation?: number;
+  reverseIndex: ReverseIndex;
 }
 
-export default function ChildCard({ child, pairs, bySlug, generation }: Props) {
+export default function ChildCard({ child, pairs, bySlug, generation, reverseIndex }: Props) {
   const expandedChild = usePalStore((s) => s.expandedChild);
   const toggleExpand = usePalStore((s) => s.toggleExpand);
   const openDetail = usePalStore((s) => s.openDetail);
+  const myPals = usePalStore((s) => s.myPals);
   const expanded = expandedChild === child.slug;
+
+  // 对 2 代+ 后代，查找一条完整繁育路径（从已有帕鲁逐级配出）
+  const path = useMemo(() => {
+    if (!generation || generation <= 1) return null;
+    const paths = findBreedPaths(child.slug, myPals, reverseIndex, Math.max(3, generation));
+    return paths.length > 0 ? paths[0] : null;
+  }, [generation, child.slug, myPals, reverseIndex]);
 
   return (
     <div className="overflow-hidden rounded-lg border border-border bg-surface transition hover:border-accent/40">
@@ -90,6 +103,14 @@ export default function ChildCard({ child, pairs, bySlug, generation }: Props) {
 
       {expanded && (
         <div className="border-t border-border bg-surface-2/40 p-3 animate-fade-in">
+          {path && (
+            <div className="mb-3">
+              <div className="mb-2 text-xs text-text-muted">
+                完整繁育路径（从已有帕鲁逐级配出）
+              </div>
+              <PathTree node={path.root} bySlug={bySlug} onPalClick={openDetail} />
+            </div>
+          )}
           <div className="mb-2 text-xs text-text-muted">
             可达成 {child.name} 的亲代组合（共 {pairs.length} 组）
           </div>
@@ -103,25 +124,17 @@ export default function ChildCard({ child, pairs, bySlug, generation }: Props) {
                   key={`${f}-${m}-${i}`}
                   className="flex items-center gap-1.5 rounded bg-surface p-2"
                 >
-                  <button
-                    type="button"
+                  <ParentButton
+                    pal={fp}
+                    isMiddle={!myPals.has(f)}
                     onClick={() => openDetail(fp.slug)}
-                    className="shrink-0 rounded outline-none transition hover:ring-2 hover:ring-accent/40 focus:ring-2 focus:ring-accent/60"
-                    title={`查看 ${fp.name} 详情`}
-                    aria-label={`查看 ${fp.name} 详情`}
-                  >
-                    <PalIcon pal={fp} size={32} showName />
-                  </button>
+                  />
                   <span className="text-sm text-text-muted">+</span>
-                  <button
-                    type="button"
+                  <ParentButton
+                    pal={mp}
+                    isMiddle={!myPals.has(m)}
                     onClick={() => openDetail(mp.slug)}
-                    className="shrink-0 rounded outline-none transition hover:ring-2 hover:ring-accent/40 focus:ring-2 focus:ring-accent/60"
-                    title={`查看 ${mp.name} 详情`}
-                    aria-label={`查看 ${mp.name} 详情`}
-                  >
-                    <PalIcon pal={mp} size={32} showName />
-                  </button>
+                  />
                 </div>
               );
             })}
@@ -131,3 +144,35 @@ export default function ChildCard({ child, pairs, bySlug, generation }: Props) {
     </div>
   );
 }
+
+// 亲代按钮：中间代（用户未拥有、需先配出）加角标"中"与琥珀色边框以示区分。
+function ParentButton({
+  pal,
+  isMiddle,
+  onClick,
+}: {
+  pal: Pal;
+  isMiddle: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={cn(
+        "relative shrink-0 rounded outline-none transition hover:ring-2 hover:ring-accent/40 focus:ring-2 focus:ring-accent/60",
+        isMiddle && "ring-1 ring-amber-500/50",
+      )}
+      title={isMiddle ? `${pal.name}（中间代，需先配出）` : `查看 ${pal.name} 详情`}
+      aria-label={`查看 ${pal.name} 详情`}
+    >
+      <PalIcon pal={pal} size={32} showName />
+      {isMiddle && (
+        <span className="absolute -right-1 -top-1 rounded-full bg-amber-500 px-1 text-[9px] font-medium leading-tight text-white">
+          中
+        </span>
+      )}
+    </button>
+  );
+}
+
