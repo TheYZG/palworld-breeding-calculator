@@ -240,7 +240,6 @@ function SortSelect({ value, onChange, workTypes }: SortSelectProps) {
         onChange={(e) => onChange(e.target.value as SortBy)}
         className="rounded-md border border-border bg-surface px-2 py-1 text-xs text-text outline-none transition focus:border-accent"
       >
-        <option value="generation">按代数</option>
         <option value="index">按编号</option>
         <option value="pairs">按配对数</option>
         {workTypes.map((wt) => (

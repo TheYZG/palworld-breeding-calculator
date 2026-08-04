@@ -1,5 +1,6 @@
 // 后代卡片：头部展示后代信息与亲代对数量，点击图标弹详情，点击其他区域展开全部亲代组合。
 // 2 代+ 后代展开时额外显示完整繁育路径，说明中间代如何获得。
+// 展开区内点击中间代头像：滚动定位到该中间代对应的卡片并展开，查看其配种路径（而非弹数值详情）。
 
 import { useMemo } from "react";
 import { ChevronDown } from "lucide-react";
@@ -33,8 +34,21 @@ export default function ChildCard({ child, pairs, bySlug, generation, reverseInd
     return paths.length > 0 ? paths[0] : null;
   }, [generation, child.slug, myPals, reverseIndex]);
 
+  // 跳转到指定帕鲁的卡片：滚动定位并展开，便于查看其配种路径。
+  // 用于点击中间代头像（不弹数值详情，而是定位到该中间代的配种路径卡片）。
+  const jumpToPalCard = (slug: string) => {
+    const el = document.getElementById(`child-${slug}`);
+    if (!el) return;
+    const state = usePalStore.getState();
+    if (state.expandedChild !== slug) state.toggleExpand(slug);
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
   return (
-    <div className="overflow-hidden rounded-lg border border-border bg-surface transition hover:border-accent/40">
+    <div
+      id={`child-${child.slug}`}
+      className="overflow-hidden rounded-lg border border-border bg-surface transition hover:border-accent/40"
+    >
       <div
         role="button"
         tabIndex={0}
@@ -106,9 +120,9 @@ export default function ChildCard({ child, pairs, bySlug, generation, reverseInd
           {path && (
             <div className="mb-3">
               <div className="mb-2 text-xs text-text-muted">
-                完整繁育路径（从已有帕鲁逐级配出）
+                完整繁育路径（点击中间代头像可跳转到其配种路径）
               </div>
-              <PathTree node={path.root} bySlug={bySlug} onPalClick={openDetail} />
+              <PathTree node={path.root} bySlug={bySlug} onPalClick={jumpToPalCard} />
             </div>
           )}
           <div className="mb-2 text-xs text-text-muted">
@@ -119,6 +133,8 @@ export default function ChildCard({ child, pairs, bySlug, generation, reverseInd
               const fp = bySlug.get(f);
               const mp = bySlug.get(m);
               if (!fp || !mp) return null;
+              const fMiddle = !myPals.has(f);
+              const mMiddle = !myPals.has(m);
               return (
                 <div
                   key={`${f}-${m}-${i}`}
@@ -126,14 +142,14 @@ export default function ChildCard({ child, pairs, bySlug, generation, reverseInd
                 >
                   <ParentButton
                     pal={fp}
-                    isMiddle={!myPals.has(f)}
-                    onClick={() => openDetail(fp.slug)}
+                    isMiddle={fMiddle}
+                    onClick={() => (fMiddle ? jumpToPalCard(fp.slug) : openDetail(fp.slug))}
                   />
                   <span className="text-sm text-text-muted">+</span>
                   <ParentButton
                     pal={mp}
-                    isMiddle={!myPals.has(m)}
-                    onClick={() => openDetail(mp.slug)}
+                    isMiddle={mMiddle}
+                    onClick={() => (mMiddle ? jumpToPalCard(mp.slug) : openDetail(mp.slug))}
                   />
                 </div>
               );
@@ -163,7 +179,7 @@ function ParentButton({
         "relative shrink-0 rounded outline-none transition hover:ring-2 hover:ring-accent/40 focus:ring-2 focus:ring-accent/60",
         isMiddle && "ring-1 ring-amber-500/50",
       )}
-      title={isMiddle ? `${pal.name}（中间代，需先配出）` : `查看 ${pal.name} 详情`}
+      title={isMiddle ? `${pal.name}（中间代，点击查看其配种路径）` : `查看 ${pal.name} 详情`}
       aria-label={`查看 ${pal.name} 详情`}
     >
       <PalIcon pal={pal} size={32} showName />
@@ -175,4 +191,5 @@ function ParentButton({
     </button>
   );
 }
+
 

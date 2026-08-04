@@ -1,5 +1,7 @@
 // 配种路径树渲染：递归展示从"已有帕鲁"到目标的繁育路径。
 // breed 节点显示 [子代] = [父] + [母]；owned 节点高亮"已有"。
+// 已拥有叶子节点为静态展示（不再触发点击）；中间代 breed 节点头像点击由调用方决定行为
+// （如滚动定位到该帕鲁的配种路径卡片，或打开详情）。
 
 import type { Pal } from "@/lib/types";
 import type { PathNode } from "@/lib/breedingPath";
@@ -8,7 +10,7 @@ import PalIcon from "./PalIcon";
 interface Props {
   node: PathNode;
   bySlug: Map<string, Pal>;
-  onPalClick: (slug: string) => void;
+  onPalClick?: (slug: string) => void;
   depth?: number;
 }
 
@@ -23,13 +25,7 @@ export default function PathTree({ node, bySlug, onPalClick, depth = 0 }: Props)
         style={{ marginLeft: depth * 24 }}
       >
         <span className="text-xs text-accent">已有</span>
-        <button
-          type="button"
-          onClick={() => onPalClick(node.pal)}
-          className="rounded outline-none hover:ring-2 hover:ring-accent/40"
-        >
-          <PalIcon pal={pal} size={28} showName />
-        </button>
+        <PalIcon pal={pal} size={28} showName />
       </div>
     );
   }
@@ -38,14 +34,18 @@ export default function PathTree({ node, bySlug, onPalClick, depth = 0 }: Props)
   return (
     <div style={{ marginLeft: depth * 24 }}>
       <div className="flex flex-wrap items-center gap-2 rounded border border-border bg-surface p-2">
-        <button
-          type="button"
-          onClick={() => onPalClick(node.pal)}
-          className="rounded outline-none hover:ring-2 hover:ring-accent/40"
-          title={`查看 ${pal.name} 详情`}
-        >
+        {onPalClick ? (
+          <button
+            type="button"
+            onClick={() => onPalClick(node.pal)}
+            className="rounded outline-none hover:ring-2 hover:ring-accent/40"
+            title={`查看 ${pal.name} 的配种路径`}
+          >
+            <PalIcon pal={pal} size={36} showName />
+          </button>
+        ) : (
           <PalIcon pal={pal} size={36} showName />
-        </button>
+        )}
         <span className="text-text-muted">=</span>
         {node.children?.map((child, i) => (
           <div key={i} className="flex items-center gap-2">
@@ -64,14 +64,9 @@ function PathTreeChild({ node, bySlug, onPalClick, depth }: Props) {
 
   if (node.type === "owned") {
     return (
-      <button
-        type="button"
-        onClick={() => onPalClick(node.pal)}
-        className="flex items-center gap-1.5 rounded bg-accent-soft/60 px-1.5 py-1 outline-none hover:ring-2 hover:ring-accent/40"
-        title="已有"
-      >
+      <div className="flex items-center gap-1.5 rounded bg-accent-soft/60 px-1.5 py-1" title="已有">
         <PalIcon pal={pal} size={28} showName />
-      </button>
+      </div>
     );
   }
 

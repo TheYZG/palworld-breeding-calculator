@@ -62,13 +62,16 @@ export interface BreedPath {
 }
 
 /**
- * BFS 查找目标帕鲁的所有配种路径。
+ * 查找目标帕鲁的配种路径（最短代数优先）。
+ *
+ * 使用迭代加深 DFS：从 1 代开始逐层尝试，找到的第一条路径即为最短繁育代数路径。
+ * 这样若目标可 1 代配出，就不会返回 2 代及以上的路径。
  *
  * @param target 目标帕鲁 slug
  * @param owned 我拥有的帕鲁集合
  * @param reverseIndex 反向索引
  * @param maxDepth 最大繁育代数（默认 3）
- * @returns 路径列表，按代数从少到多排序
+ * @returns 至多一条最短路径（已按代数升序选定）
  */
 export function findBreedPaths(
   target: string,
@@ -76,26 +79,31 @@ export function findBreedPaths(
   reverseIndex: ReverseIndex,
   maxDepth = 3,
 ): BreedPath[] {
-  const paths: BreedPath[] = [];
-  const visited = new Set<string>(); // 防止环路
+  if (owned.has(target)) return [];
 
-  function dfs(pal: string, depth: number): PathNode | null {
-    if (owned.has(pal)) {
-      return { type: "owned", pal };
+  const visited = new Set<string>();
+  for (let limit = 1; limit <= maxDepth; limit++) {
+    visited.clear();
+    const root = dfs(target, 0, limit);
+    if (root && root.type === "breed") {
+      return [{ target, depth: countDepth(root), root }];
     }
-    if (depth >= maxDepth) return null;
-    // 防环
+  }
+  return [];
+
+  function dfs(pal: string, depth: number, limit: number): PathNode | null {
+    if (owned.has(pal)) return { type: "owned", pal };
+    if (depth >= limit) return null;
     if (visited.has(pal)) return null;
     visited.add(pal);
 
     const parentPairs = reverseIndex.get(pal);
     if (!parentPairs || parentPairs.length === 0) return null;
 
-    // 尝试每一对亲代，找到第一条可行路径即返回（避免组合爆炸）
     for (const [f, m] of parentPairs) {
-      const fNode = dfs(f, depth + 1);
+      const fNode = dfs(f, depth + 1, limit);
       if (!fNode) continue;
-      const mNode = dfs(m, depth + 1);
+      const mNode = dfs(m, depth + 1, limit);
       if (!mNode) continue;
       return {
         type: "breed",
@@ -106,12 +114,6 @@ export function findBreedPaths(
     }
     return null;
   }
-
-  const root = dfs(target, 0);
-  if (root && root.type === "breed") {
-    paths.push({ target, depth: countDepth(root), root });
-  }
-  return paths;
 }
 
 function countDepth(node: PathNode): number {
