@@ -96,7 +96,7 @@ export function computeBreedableClosure(
     if (!changed) break;
   }
 
-  // 用最终可达集合重新计算所有亲代对（保证 pairs 完整）
+  // 用最终可达集合重新计算所有亲代对
   const finalSet = new Set(reachable.keys());
   const allResult = computeBreedable(finalSet, breedingByFather);
 
@@ -105,7 +105,15 @@ export function computeBreedableClosure(
     if (myPals.has(child)) continue; // 排除已拥有
     const gen = reachable.get(child);
     if (!gen) continue;
-    closure.set(child, { generation: gen, pairs });
+    // 只保留能达到该代数的亲代组合：max(父代数, 母代数) + 1 == 该后代代数
+    // 这样 1 代后代只显示"已有+已有"的组合，不会混入中间代组合
+    const filtered = pairs.filter(([f, m]) => {
+      const gf = reachable.get(f) ?? Infinity;
+      const gm = reachable.get(m) ?? Infinity;
+      return Math.max(gf, gm) + 1 === gen;
+    });
+    if (filtered.length === 0) continue;
+    closure.set(child, { generation: gen, pairs: filtered });
   }
   return closure;
 }
